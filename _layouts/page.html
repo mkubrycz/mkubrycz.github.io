@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="post">
+  <div class="post-info">
+    {% if page.date %}
+      <br>
+      <span>Written on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    {% endif %}
+  </div>
+
+  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-line"></div>
+
+  {{ content }}
+
+</div>
+
+<div class="pagination">
+  <a href="#" class="top">☝️Top</a>
+</div>
