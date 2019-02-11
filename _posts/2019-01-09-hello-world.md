@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "hello world"
-date:   2019-01-09 15:06:00 +0100
+title: hello world
+date: 2019-01-09 15:06:00 +0100
 categories: hello world
 published: true
 ---

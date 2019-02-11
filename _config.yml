@@ -14,21 +14,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: mkubrycz
+description: A personal blog about programming, testing and what not
 author:
   name: Michał Kubrycz
   email: mkubrycz@gmail.com
+  url: http://mkubrycz.github.io
 email: mkubrycz@gmail.com
-description: ""
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mkubrycz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: # the subpath of your site, e.g. /blog
+url: http://mkubrycz.github.io # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: UA-134261307-1
 
 social:
-  github_username:  mkubrycz
-  linkedin_username: michalkubrycz
-  twitter_username: kubrycz
-  instagram_username: michalkubrycz
-  facebook_username: mkubrycz
-  spotify_username: mkubrycz
+  github:  mkubrycz
+  linkedin: michalkubrycz
+  twitter: kubrycz
+  instagram: michalkubrycz
+  facebook: mkubrycz
+  spotify: mkubrycz
 
 # Build settings
 markdown: kramdown
@@ -39,6 +41,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

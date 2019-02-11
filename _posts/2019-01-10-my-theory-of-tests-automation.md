@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "my theory of tests automation"
-date:   2019-01-10 15:24:00 +0100
+title: my theory of tests automation
+date: 2019-01-10 15:24:00 +0100
 categories: test automation
 published: false
 ---
