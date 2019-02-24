@@ -5,7 +5,7 @@ date: 2019-01-05 20:06:00 +0100
 permalink: /resume/
 ---
 
-I'm an Automation Test Engineer with experience in web technologies. My main focus is on JavaScript. I use JS based technologies to build automation testing frameworks for web applications. Tools of my choice are TestCafe, K6, jest and Docker. Over the past two years, I've been working on two different projects where I have built and maintained automation testing frameworks as a one-person test automation team.
+I'm an automation test engineer in web technologies. In my day-to-day work, I'm using JavaScript technologies to build advanced testing frameworks for web applications. Tools of my choice are TestCafe for UI testing, K6 for load testing, and jest for testing APIs and automating lower level testing tasks. I'm also using Docker for building testing environments for both automated and manual testing. Over the last two years, I've been creating and maintaining tests automation frameworks for two different projects as a one-person tests automation team.
 
 ---
 
@@ -50,7 +50,7 @@ I'm an Automation Test Engineer with experience in web technologies. My main foc
 
 **Automation QA @ [SoftJourn Inc.](https://softjourn.com)**  
 *From September 2017 to December 2018*  
-- Building a web-app test automation framework (e2e x load x API) on top of TestCafe, K6 and jest with use of Docker.
+- Building a web-app test automation framework (e2e x load x API) on top of TestCafe, K6 and jest with the use of Docker.
 - Writing automated test cases.
 - Maintenance of the framework and tests.
 - Reporting and analysis of tests results and issues.

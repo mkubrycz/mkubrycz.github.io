@@ -24,6 +24,12 @@ layout: default
 
 </div>
 
+<!-- <small>
+  {% for tag in page.tags %}
+  <a href="/tags/{{ tag }}/">{{ tag }}</a>
+  {% endfor %}
+</small> -->
+
 <div class="pagination">
   {% if page.next.url %}
     <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>

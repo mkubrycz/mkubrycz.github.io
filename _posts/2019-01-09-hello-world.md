@@ -2,7 +2,8 @@
 layout: post
 title: hello world
 date: 2019-01-09 15:06:00 +0100
-categories: hello world
+categories: [general]
+tags: [general]
 published: true
 ---
 Wow, that wasn't easy! 😅 Even though GitHub Pages are so easy to configure and deploy it took me over a month to set everything up and write this "{{ page.title }}" post. I couldn't just have created it and let it be. I had to check out almost every Jekyll theme available before I chose this one. Of course, I had to understand the inner workings of Jekyll. I wouldn't be able to sleep at night otherwise. Then, I had to decide what I wanted to write here. Not that I didn't already know, I just had to crystallize my ideas. Next, I began to see all those little things that, I thought, could be done better. Like adding a little color here and there. I had to change layouts, add some icons, drop caps... Does this count for OCD yet? I think so. 🤓 But finally, my own blog goes live! Exciting! 🙃

@@ -15,13 +15,15 @@
 # in the templates via {{ site.myvariable }}.
 title: mkubrycz
 description: A personal blog about programming, testing and what not
+baseurl: # the subpath of your site, e.g. /blog
+url: http://mkubrycz.github.io # the base hostname & protocol for your site, e.g. http://example.com
+
 author:
   name: Michał Kubrycz
   email: mkubrycz@gmail.com
   url: http://mkubrycz.github.io
 email: mkubrycz@gmail.com
-baseurl: # the subpath of your site, e.g. /blog
-url: http://mkubrycz.github.io # the base hostname & protocol for your site, e.g. http://example.com
+
 google_analytics: UA-134261307-1
 
 social:
@@ -32,15 +34,19 @@ social:
   facebook: mkubrycz
   spotify: mkubrycz
 
-# Build settings
 markdown: kramdown
-remote_theme: chesterhow/tale
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
 permalink: /:year-:month-:day/:title
 paginate: 5
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-remote-theme
   - jekyll-seo-tag
 
 # Exclude from processing.
