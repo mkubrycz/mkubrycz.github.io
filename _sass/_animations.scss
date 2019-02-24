@@ -1,0 +1,100 @@
+$shadow: -1px 1px 0 $pink, 1px 2px 0 $green;
+$shadow-alt: -2px 0 0 $pink, 2px 1px 0 $green;
+$shadow-alt1: 10px -1px 0 $pink, -10px 0 0 $green;
+
+@-webkit-keyframes turn-on {
+  0%,
+  36%,
+  100% {
+    text-shadow: $shadow;
+  }
+  18%,
+  72% {
+    text-shadow: $shadow-alt1;
+  }
+}
+@-moz-keyframes turn-on {
+  0%,
+  36%,
+  100% {
+    text-shadow: $shadow;
+  }
+  18%,
+  72% {
+    text-shadow: $shadow-alt1;
+  }
+}
+@-o-keyframes turn-on {
+  0%,
+  36%,
+  100% {
+    text-shadow: $shadow;
+  }
+  18%,
+  72% {
+    text-shadow: $shadow-alt1;
+  }
+}
+@keyframes turn-on {
+  0%,
+  36%,
+  100% {
+    text-shadow: $shadow;
+  }
+  18%,
+  72% {
+    text-shadow: $shadow-alt1;
+  }
+}
+
+@-webkit-keyframes vibrate {
+  0%,
+  36%,
+  100% {
+    text-shadow: $shadow;
+  }
+  18%,
+  72% {
+    text-shadow: $shadow-alt;
+  }
+}
+@-moz-keyframes vibrate {
+  0%,
+  36%,
+  100% {
+    text-shadow: $shadow;
+  }
+  18%,
+  72% {
+    text-shadow: $shadow-alt;
+  }
+}
+@-o-keyframes vibrate {
+  0%,
+  36%,
+  100% {
+    text-shadow: $shadow;
+  }
+  18%,
+  72% {
+    text-shadow: $shadow-alt;
+  }
+}
+@keyframes vibrate {
+  0%,
+  36%,
+  100% {
+    text-shadow: $shadow;
+  }
+  18%,
+  72% {
+    text-shadow: $shadow-alt;
+  }
+}
+
+@mixin vibrate {
+  -webkit-animation: turn-on 0.06s 5 linear, vibrate 0.02s infinite linear 0.3s;
+  -moz-animation: turn-on 0.06s 5 linear, vibrate 0.02s infinite linear 0.3s;
+  -o-animation: turn-on 0.06s 5 linear, vibrate 0.02s infinite linear 0.3s;
+  animation: turn-on 0.06s 5 linear, vibrate 0.02s infinite linear 0.3s;
+}

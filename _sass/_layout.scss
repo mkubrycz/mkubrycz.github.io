@@ -38,11 +38,8 @@ footer,
 
     &:hover,
     &:focus {
-      opacity: 0.8;
-    }
-    &:hover,
-    &:focus {
       @include vibrate;
+      opacity: 0.8;
     }
   }
 
@@ -87,7 +84,6 @@ footer,
       &:hover,
       &:focus {
         @include vibrate;
-        opacity: 0.8;
       }
     }
   }

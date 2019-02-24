@@ -12,8 +12,6 @@ $green: lightgreen;
 $yellow: gold;
 $red: tomato;
 $shadow-color: rgba(0, 0, 0, 0.2);
-$shadow: -1px 1px 0 $pink, 1px 2px 0 $green;
-$shadow-alt: 10px -1px 0 $pink, -10px 0 0 $green;
 
 // Fonts
 $serif: "Crimson Text", Georgia, serif;
@@ -32,56 +30,4 @@ $monospace: "Fira Mono", "Lucida Console", Monaco, monospace;
   -moz-transition: $args;
   -o-transition: $args;
   transition: $args;
-}
-
-@-webkit-keyframes vibrate {
-  0%,
-  36%,
-  100% {
-    text-shadow: $shadow;
-  }
-  18%,
-  72% {
-    text-shadow: $shadow-alt;
-  }
-}
-@-moz-keyframes vibrate {
-  0%,
-  36%,
-  100% {
-    text-shadow: $shadow;
-  }
-  18%,
-  72% {
-    text-shadow: $shadow-alt;
-  }
-}
-@-o-keyframes vibrate {
-  0%,
-  36%,
-  100% {
-    text-shadow: $shadow;
-  }
-  18%,
-  72% {
-    text-shadow: $shadow-alt;
-  }
-}
-@keyframes vibrate {
-  0%,
-  36%,
-  100% {
-    text-shadow: $shadow;
-  }
-  18%,
-  72% {
-    text-shadow: $shadow-alt;
-  }
-}
-
-@mixin vibrate {
-  -webkit-animation: vibrate 0.06s 5 linear;
-  -moz-animation: vibrate 0.06s 5 linear;
-  -o-animation: vibrate 0.06s 5 linear;
-  animation: vibrate 0.06s 5 linear;
 }
