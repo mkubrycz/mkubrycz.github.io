@@ -75,11 +75,11 @@ For drawing, I decided to use [mermaid]. Mainly because flowcharts built with it
 ```
 graph LR
 
-home--"open about page"-->about
-about--"go back home"-->home
-home--"open a post"-->post1
-post1--"next post"-->post2
-post2--"previous post"-->post1
+home--"open about page"-->about;
+about--"go back home"-->home;
+home--"open a post"-->post1;
+post1--"next post"-->post2;
+post2--"previous post"-->post1;
 ```
 
 Which would result in a flowchart:
@@ -88,14 +88,76 @@ Which would result in a flowchart:
 
 It might not impress you, but I hope it's to the point 😅. This is just an SVG generated with [mermaid.cli] which we could use if we decided to generate each chart manually. But we didn't 😎. Moving on!
 
+The data interpreter:
+
 ```js
 // mermaid-interpreter.js
 
 export default data => `graph LR
+
 ${data.relations.map(relation =>
   `${relation.from}--"${relation.name}"-->${relation.to};`,
 ).join('\n')}`;
 ```
+
+It takes the user-flow object and creates mermaid script joining `from` and `to` properties with named relations. If we wanted to use different [nodes shapes](https://mermaidjs.github.io/flowchart.html), or our views objects had some descriptions we'd like to print inside the flowchart nodes like this...
+
+```js
+const views = [
+  {
+    name: 'home',
+    description: 'Home Page',
+  },
+  {
+    name: 'about',
+    description: 'About Me',
+  },
+  {
+    name: 'post1',
+    description: 'First Post Title',
+  },
+  {
+    name: 'post2',
+    description: 'Second Post Title',
+  },
+];
+```
+
+...the interpreter should also create the nodes declaration part of mermaid script:
+
+```js
+// mermaid-interpreter.js
+// with separate nodes declaration and description displayed inside them
+
+export default data => `graph LR
+
+${data.views.map(view => `${view.name}(("${view.description}"));`).join('\n')}
+
+${data.relations.map(relation =>
+  `${relation.from}--"${relation.name}"-->${relation.to};`,
+).join('\n')}`;
+```
+
+In this case the final mermaid script would be:
+
+```
+graph LR
+
+home(("Home Page"));
+about(("About Me"));
+post1(("First Post Title"));
+post2(("Second Post Title"));
+
+home--"open about page"-->about;
+about--"go back home"-->home;
+home--"open a post"-->post1;
+post1--"next post"-->post2;
+post2--"previous post"-->post1;
+```
+
+And the flowchart would look like this:
+
+{% include img/mermaid-example-2.svg %}
 
 ## mermaid component
 
