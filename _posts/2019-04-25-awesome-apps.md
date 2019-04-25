@@ -45,6 +45,9 @@ the most beautiful terminal emulator
 [Insomnia](https://insomnia.rest)  ⚛︎  🙌  👁  💜  
 REST client 👉 great postman alternative
 
+[VS Code](https://code.visualstudio.com/)  ⚛︎  🙌  👁  💜💜💜  
+if you code JS or TS apps, this is the perfect IDE for you!
+
 ## tools
 
 [Etcher](https://github.com/resin-io/etcher/)  ⚛︎  🙌  👁  💜💜  
