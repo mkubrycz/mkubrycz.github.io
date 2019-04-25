@@ -19,7 +19,7 @@ published: true
 
 ## communication
 
-[Mailspring](https://github.com/Foundry376/Mailspring)  ⚛︎  🙌  👁   💜💜 
+[Mailspring](https://github.com/Foundry376/Mailspring)  ⚛︎  🙌  👁   💜💜  
 do you remember nylas? it's very good email client
 
 [Rambox](http://rambox.pro/)  ⚛︎  🙌  
@@ -33,7 +33,7 @@ like Station👆, only better
 
 ## dev-tools
 
-[iTerm](https://iterm2.com/)  🙌  👁  💜💜💜
+[iTerm](https://iterm2.com/)  🙌  👁  💜💜💜  
 the best terminal emulator, period!
 
 [Tilix](https://gnunn1.github.io/tilix-web/)   🙌  👁  💜💜  
