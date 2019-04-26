@@ -10,15 +10,15 @@ published: true
 🧜‍♀️ If you use DDT (data-driven testing) methodology for UI testing, you might have come across a similar problem as I did. I had to create the **graphic representation of user flow** in the application, I'm testing. Like some kind of graphs or flowcharts that could be used both by automation and manual testing teams. We would use them as a wireframe for test scenarios and test cases.
 
 Flowcharts that I was about to create had to meet certain expectations:
-1. they should be built into the automation testing framework
-2. they should utilize the same data I'm using for automated tests
-3. they should be created automatically
-4. they should be easy to maintain
-5. they should be available for everybody to see them at any time
+1. built into the automation testing framework
+2. utilize the same data I'm using for automated tests
+3. automatically created
+4. easy to maintain
+5. available for everybody to see them at any time
 
 ## data
 
-Let's try to recreate this in case of a simple blog. This might not make much sense but, for the sake of the example, let's say it does 😅. We would have the following object to represent our user flow.
+Let's try to recreate this in case of a simple blog. This might not make much sense but, for the sake of the example, let's say it does 😅. The following object represents our user flow.
 
 ```js
 // data.js
@@ -63,17 +63,17 @@ export default {
 };
 ```
 
-The tests would use this object to:
+The tests will use this object to:
 1. check the initial view where we're starting
 2. call user actions function according to the relation name
 3. check target view
 
 ## data interpreter
 
-For drawing, I decided to use [mermaid]. Mainly because flowcharts built with it are very well structured and I needed them to be very easy to read. Also, I've been already using [mermaid] in the past so I knew what I can do with it and it matched my expectations 🙌. At this point, we need to create the **data interpreter** for our object to get a [mermaid] script from. The script itself needs to be something like this:
+For drawing, I decided to use [mermaid]. Mainly because flowcharts built with it are very well structured and I needed them to be very easy to read. Also, I've been already using [mermaid] in the past so I knew what I can do with it and it matched my expectations 🙌. At this point, we need to create the **data interpreter** for our object to get a [mermaid] script from. The [mermaid] script looks like this:
 
 ```
-graph LR
+graph TB
 
 home--"open about page"-->about;
 about--"go back home"-->home;
@@ -82,25 +82,26 @@ post1--"next post"-->post2;
 post2--"previous post"-->post1;
 ```
 
-Which would result in a flowchart:
+Which results with a flowchart:
 
 {% include img/mermaid-example-1.svg %}
 
-It might not impress you, but I hope it's to the point 😅. This is just an SVG generated with [mermaid.cli] which we could use if we decided to generate each chart manually. But we didn't 😎. Moving on!
+It might not impress you, but hopefully is to the point 😅. This is just an SVG generated with [mermaid.cli] which we could use if we decided to generate each chart manually. But we didn't. 😎 Moving on!
 
 The data interpreter:
 
 ```js
 // mermaid-interpreter.js
 
-export default data => `graph LR
+// flowchart declaration starts here, the `LR` stands for left-to-right direction
+export default data => `graph LR 
 
 ${data.relations.map(relation =>
   `${relation.from}--"${relation.name}"-->${relation.to};`,
 ).join('\n')}`;
 ```
 
-It takes the user-flow object and creates mermaid script joining `from` and `to` properties with named relations. If we wanted to use different [nodes shapes](https://mermaidjs.github.io/flowchart.html), or our views objects had some descriptions we'd like to print inside the flowchart nodes like this...
+It takes the user-flow object and creates mermaid script joining `from` and `to` properties with named relations. We can control flowchart direction and nodes shapes as described in the [mermaid documentation](https://mermaidjs.github.io/flowchart.html), we'll use this in next steps. Now let's add some descriptions to our nodes.
 
 ```js
 const views = [
@@ -123,7 +124,7 @@ const views = [
 ];
 ```
 
-...the interpreter should also create the nodes declaration part of mermaid script:
+The interpreter should also create the nodes declaration part of mermaid script for us to be able to see them on the flowchart:
 
 ```js
 // mermaid-interpreter.js
@@ -138,7 +139,7 @@ ${data.relations.map(relation =>
 ).join('\n')}`;
 ```
 
-In this case the final mermaid script would be:
+Our generated [mermaid] script:
 
 ```
 graph LR
@@ -155,13 +156,13 @@ post1--"next post"-->post2;
 post2--"previous post"-->post1;
 ```
 
-And the flowchart would look like this:
+And the flowchart:
 
 {% include img/mermaid-example-2.svg %}
 
 ## mermaid component
 
-Next up, we will need something to display those charts. For this, I decided to go with [create-react-app]. It's easy to use and I needed to easily add some more functionality to the charts page afterward. Like tabs to split them into groups or categories, or legend for more complex flows. React with its components seemed like a valid choice at this point. To start a fresh react app we need to run `npx create-react-app mermaid-react-docker`. It creates a new folder with the pre-configured react app in it. We'll need to add two packages, `prop-types` and `mermaid`. Install them with `npm i --save mermaid prop-types`. One more thing, we should delete everything from the `src` folder, we'll create our own files 🙃. Now we're ready to write the **mermaid component** to display our flowchart.
+Next up, we will need something to display those charts. For this, I decided to go with [create-react-app]. It's easy to use and I needed to easily add some more functionality to the charts page afterwards. Like tabs to split them into groups or categories, or legend for more complex flows. React with its components seemed like a valid choice at this point. To start a fresh react app we need to run `npx create-react-app mermaid-react-docker`. It creates a new folder with the pre-configured react app in it. We'll need to add two packages, `prop-types` and `mermaid`. Install them with `npm i --save mermaid prop-types`. One more thing, we should delete everything from the `src` folder, we'll create our own files. 🙃 Now we're ready to write the **mermaid component** to display our flowchart.
 
 ```js
 // mermaid.js
@@ -213,7 +214,7 @@ Mermaid.propTypes = {
 
 ## react app
 
-Now we need to put it all together. We'll render our mermaid component with diagram built from the data. We just need to import everything into `index.js` of the **react app**.
+We need to put it all together. To render our mermaid component with diagram built from the data we just need to import everything into `index.js` of the **react app**.
 
 ```js
 // index.js
@@ -233,7 +234,7 @@ ReactDOM.render(
 );
 ```
 
-At this point our project structure should be looking like this:
+At this point our project structure should look like this:
 
 ```
 mermaid-react-docker
@@ -252,11 +253,11 @@ mermaid-react-docker
     └── mermaid.js
 ```
 
-Let's see if everything works as expected. `npm run start` will run our react app in development mode. A flowchart exactly the same as I showed before should appear at `localhost:3000`. I hope it works for you 🤞. If not, check every file again. It should work if you followed my instructions exactly 🤓.
+Let's see if everything works as expected. `npm run start` will run the react app in development mode. A flowchart exactly the same as I showed before should appear at `localhost:3000`. I hope it works for you 🤞. If not, check every file again. It should work if you followed my instructions exactly. 🤓
 
 ## docker
 
-To be able to easily put the flowcharts app somewhere and keep it updated with the minimum effort I decided to use [docker] 🐋. If you use [dockerhub] and can integrate it with some CI, it's the best option for instant and effortless deployment. Every time I update my user-flow data I will just need to push a new version of docker image to the hub and that's it. In order to build a docker image with working flowcharts app we need to create a dockerfile. It should contain a pre-built version of our app and a server (in this case it's [nginx]). Everything we need now is to create a `dockerfile` in the root of our application.
+To be able to easily put the flowcharts app somewhere and keep it updated with the minimum effort I decided to use [docker] 🐋. If you use [dockerhub] and can integrate it with some CI, it's the best option for instant and effortless deployment. Every time I update my user-flow data I just need to push a new version of docker image to the hub and that's it. In order to build a docker image with working flowcharts app we need to create a dockerfile. It should contain a pre-built version of our app and a server (in this case it's [nginx]). Everything we need now is to create a `dockerfile` in the root of our application.
 
 ```dockerfile
 FROM node:lts-alpine AS build
@@ -270,7 +271,7 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
-Now, to build the image we have to run `docker build -t mermaid-react-docker .`. When it finishes building we can check if everything works as expected with `docker run -p 8080:80 mermaid-react-docker`. The flowchart should be available at `localhost:8080`.
+Now, to build the image we have to run `docker build -t mermaid-react-docker .`. When it's finished building we can check if everything works as expected with `docker run -p 8080:80 mermaid-react-docker`. The flowchart should be available at `localhost:8080`.
 
 # 🎉
 
