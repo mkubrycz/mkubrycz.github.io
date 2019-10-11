@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: mkubrycz
-description: A personal blog about programming, testing and what not
+description: 👨‍💻
 baseurl: # the subpath of your site, e.g. /blog
 url: http://mkubrycz.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -43,6 +43,7 @@ sass:
   style: compressed
 
 permalink: /:year-:month-:day/:title
+paginate_path: "/posts/page:num/"
 paginate: 5
 plugins:
   - jekyll-feed

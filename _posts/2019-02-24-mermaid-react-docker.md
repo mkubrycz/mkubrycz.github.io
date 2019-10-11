@@ -4,7 +4,7 @@ title: graphs and flowcharts with mermaid & react & docker
 date: 2019-02-24 12:00:00 +0100
 categories: [javascript]
 tags: [mermaid, javascript, react, docker, flowchart]
-published: true
+published: false
 ---
 
 🧜‍♀️ If you use DDT (data-driven testing) methodology for UI testing, you might have come across a similar problem as I did. I had to create the **graphic representation of user flow** in the application, I'm testing. Like some kind of graphs or flowcharts that could be used both by automation and manual testing teams. We would use them as a wireframe for test scenarios and test cases.
