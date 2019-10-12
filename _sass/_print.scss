@@ -1,0 +1,22 @@
+@media print {
+  .nav {
+    display: none;
+    height: 0;
+  }
+
+  body {
+    width: 21cm;
+    height: 29.7cm;
+    margin: auto;
+    .pagination {
+      display: none;
+      height: 0;
+    }
+  }
+
+  footer {
+    display: none;
+    height: 0;
+  }
+
+}

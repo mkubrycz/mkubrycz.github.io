@@ -1,45 +1,59 @@
 ---
 layout: page
 title: my resume 📃
-date: 2019-01-05 20:06:00 +0100
+date: 2019-10-12 20:06:00 +0100
 permalink: /
 ---
 
-I'm an automation test engineer working with web technologies. In my day-to-day work, I use JavaScript to build advanced testing frameworks for web applications. Tools of my choice are TestCafe for UI testing, K6 for load testing, and jest for testing APIs and automating lower level testing tasks. I'm also using Docker for test environments automation. Over the last two years, I've been creating and maintaining tests automation frameworks for two different projects as a one-person tests automation team.
+I'm an automation test engineer working with web technologies. In my day-to-day work, I use JavaScript to build advanced testing frameworks for web applications. Tools of my choice are TestCafe for UI testing, K6 for load testing, and jest for testing APIs and automating lower level testing tasks. I'm also using Docker for test environments automation. Over the last two years, I've been creating and maintaining tests automation frameworks for many different projects as a one-person tests automation team.
 
 ---
 
-### Tools and frameworks I use on a daily basis
-- [Node.js](https://github.com/nodejs/node)
-- [TestCafe](https://github.com/DevExpress/testcafe)
-- [Load Impact K6](https://github.com/loadimpact/k6)
-- [Grafana](https://github.com/grafana/grafana)
-- [InfluxDB](https://github.com/influxdata/influxdb)
-- [jest](https://github.com/facebook/jest)
-- [Docker](https://www.docker.com/products/docker-engine)
-- [ESlint](https://github.com/eslint/eslint)
-- [husky](https://github.com/typicode/husky)
-- [Prettier](https://github.com/prettier/prettier)
-- [Bamboo](https://www.atlassian.com/software/bamboo)
-- [Jira Software](https://www.atlassian.com/software/jira)
+<center><h3>Tools and frameworks 🧰</h3></center>
 
-### Tools and frameworks I've been using in the past
-- [sails](https://github.com/balderdashy/sails)
-- [Angular v6](https://github.com/angular/angular)
-- [AngularJS](https://github.com/angular/angular.js)
-- [Capybara](https://github.com/teamcapybara/capybara)
-- [RSpec](https://github.com/rspec/rspec)
-- [Selenium WebDriver](https://www.seleniumhq.org/projects/webdriver/)
-- [BrowserStack](https://www.browserstack.com)
-- [CircleCI](https://circleci.com)
-- [PhantomJS](https://github.com/ariya/phantomjs)
-- [Protractor](https://github.com/angular/protractor)
-- [Mocha](https://github.com/mochajs/mocha)
-- [Chai](https://github.com/chaijs/chai)
+<div class="flex-container">
+  <div class="skills-container">
+    <h4>I use on a daily basis</h4>
+    <div class="flex-container">
+        <a href="https://github.com/nodejs/node"><div class="skill">Node.js</div></a>
+        <a href="https://github.com/DevExpress/testcafe"><div class="skill">Docker</div></a>
+        <a href="https://github.com/loadimpact/k6"><div class="skill">TestCafe</div></a>
+        <a href="https://github.com/grafana/grafana"><div class="skill">ESlint</div></a>
+        <a href="https://github.com/influxdata/influxdb"><div class="skill">Load Impact K6</div></a>
+        <a href="https://github.com/facebook/jest"><div class="skill">husky</div></a>
+        <a href="https://www.docker.com/products/docker-engine"><div class="skill">Grafana</div></a>
+        <a href="https://github.com/eslint/eslint"><div class="skill">Prettier</div></a>
+        <a href="https://github.com/facebook/flow"><div class="skill">Flow</div></a>
+        <a href="https://github.com/typicode/husky"><div class="skill">InfluxDB</div></a>
+        <a href="https://www.getpostman.com"><div class="skill">Postman</div></a>
+        <a href="https://www.atlassian.com/software/bamboo"><div class="skill">jest</div></a>
+        <a href="https://www.atlassian.com/software/jira"><div class="skill">Jira Software</div></a>
+    </div>
+  </div>
+  <div class="skills-container">
+    <h4>I've been using in the past</h4>
+    <div class="flex-container">
+        <a href="https://github.com/balderdashy/sails"><div class="skill-green">sails</div></a>
+        <a href="https://github.com/angular/angular"><div class="skill-green">Angular v6</div></a>
+        <a href="https://github.com/angular/angular.js"><div class="skill-green">AngularJS</div></a>
+        <a href="http://www.typescriptlang.org"><div class="skill-green">TypeScript</div></a>
+        <a href="https://github.com/teamcapybara/capybara"><div class="skill-green">Capybara</div></a>
+        <a href="https://github.com/rspec/rspec"><div class="skill-green">RSpec</div></a>
+        <a href="https://www.seleniumhq.org/projects/webdriver/"><div class="skill-green">Selenium WebDriver</div></a>
+        <a href="https://www.browserstack.com"><div class="skill-green">BrowserStack</div></a>
+        <a href="https://circleci.com"><div class="skill-green">CircleCI</div></a>
+        <a href="https://github.com/prettier/prettier"><div class="skill-green">Bamboo</div></a>
+        <a href="https://github.com/ariya/phantomjs"><div class="skill-green">PhantomJS</div></a>
+        <a href="https://github.com/angular/protractor"><div class="skill-green">Protractor</div></a>
+        <a href="https://github.com/mochajs/mocha"><div class="skill-green">Mocha</div></a>
+        <a href="https://github.com/chaijs/chai"><div class="skill-green">Chai</div></a>
+    </div>
+  </div>
+</div>
 
 ---
 
-### My experience
+### My experience 📚
 **Team Leader & Automation Test Engineer @ [Deviniti Sp. z o.o.](https://deviniti.com)**  
 *From January 2019*  
 - Building a web-app test automation framework.

@@ -89,6 +89,32 @@ footer,
   }
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.skills-container {
+  text-align: center;
+  width: 400px;
+  padding: 0 1rem 1rem 1rem;
+  .skill {
+    color: #fff;
+    padding: 0.2rem 0.4rem;
+    margin: 0.2rem;
+    border-radius: 0.7rem;
+    background-color: $pink;
+    font-family: $sans-serif;
+    font-size: 0.8rem;
+    &-green {
+      @extend .skill;
+      background-color: $green;
+    }
+  }
+}
+
 @media (min-width: 600px) {
   .nav {
     &-container {
