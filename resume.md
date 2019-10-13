@@ -5,7 +5,7 @@ date: 2019-10-12 20:06:00 +0100
 permalink: /
 ---
 
-I'm an automation test engineer working with web technologies. In my day-to-day work, I use JavaScript to build advanced testing frameworks for web applications. Tools of my choice are TestCafe for UI testing, K6 for load testing, and jest for testing APIs and automating lower level testing tasks. I'm also using Docker for test environments automation. Over the last two years, I've been creating and maintaining tests automation frameworks for many different projects as a one-person tests automation team.
+I'm an test automation engineer working with web technologies. In my day-to-day work, I use JavaScript to build advanced testing frameworks for web applications. Tools of my choice are TestCafe for UI testing, K6 for load testing, and jest for testing APIs and automating lower level testing tasks. I'm also using Docker for test environments automation. Over the last two years, I've been creating and maintaining tests automation frameworks for many different projects as a one-person tests automation team.
 
 ---
 
@@ -30,6 +30,8 @@ I'm an automation test engineer working with web technologies. In my day-to-day 
         <a href="https://www.atlassian.com/software/jira"><div class="skill">Jira Software</div></a>
         <a href="https://bitbucket.org/product/features/pipelines"><div class="skill">Bitbucket Pipelines</div></a>
         <a href="https://git-scm.com"><div class="skill">Git</div></a>
+        <a href="https://www.gnu.org/software/bash/"><div class="skill">Bash</div></a>
+        <a href="https://www.zsh.org"><div class="skill">Zsh</div></a>
     </div>
   </div>
   <div class="skills-container">
@@ -56,36 +58,39 @@ I'm an automation test engineer working with web technologies. In my day-to-day 
 ---
 
 ### My experience 📚
-**Team Leader & Automation Test Engineer @ [Deviniti Sp. z o.o.](https://deviniti.com)**  
+**Team Leader & Test Automation Engineer @ [Deviniti Sp. z o.o.](https://deviniti.com)**  
 *From January 2019*  
-- Building a web-app test automation framework.
-- Writing automated test cases.
+- Building a web-apps test automation framework on top of TestCafe and K6.
+- Writing automated test cases for multiple applications.
 - Maintenance of the framework and tests.
-- Reporting and analysis of tests results and issues.
+- Reporting and analysis of test results.
 - Helping with manual testing.
+- Testing team management.
+- Building and maintaining testing environments for testers, developers and support teams.
+- Leading company's Testers Guild.
 
 **Automation QA @ [SoftJourn Inc.](https://softjourn.com)**  
 *From September 2017 to December 2018*  
 - Building a web-app test automation framework (e2e x load x API) on top of TestCafe, K6 and jest with the use of Docker.
 - Writing automated test cases.
 - Maintenance of the framework and tests.
-- Reporting and analysis of tests results and issues.
+- Reporting and analysis of test results.
 - Helping with manual testing.
 - Some full-stack developer responsibilities (I created functionality for the application using Angular v6, Sails.js, and Angular.js).
 
 **Test Automation Engineer @ [Beyond](https://beyond.life) (formerly Funerlabooker)**  
 *From July 2016 to August 2017*  
-- Building a web-app test automation framework (e2e x API) on top of TestCafe and mocha with use of Docker.
+- Building a web-app test automation framework (e2e x API) on top of TestCafe and mocha with the use of Docker.
 - Building a web-app test automation framework (e2e) on top of Capybara, RSpec, and PhantomJS.
 - Writing automated test cases.
 - Maintenance of the framework and tests.
-- Reporting and analysis of tests results and issues.
+- Reporting and analysis of test results.
 - Manual testing.
 
 **Technical Support Engineer @ [Verve](https://onverve.com) (formerly StreetTeam)**  
 *From April 2016 to August 2016*  
 - Manual testing.
-- Answering users queries.
+- Answering users' queries.
 - Assigning issues to development team members.
 - Solving lower priority issues.
 
