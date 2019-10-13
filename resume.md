@@ -19,15 +19,17 @@ I'm an automation test engineer working with web technologies. In my day-to-day 
         <a href="https://github.com/DevExpress/testcafe"><div class="skill">Docker</div></a>
         <a href="https://github.com/loadimpact/k6"><div class="skill">TestCafe</div></a>
         <a href="https://github.com/grafana/grafana"><div class="skill">ESlint</div></a>
-        <a href="https://github.com/influxdata/influxdb"><div class="skill">Load Impact K6</div></a>
-        <a href="https://github.com/facebook/jest"><div class="skill">husky</div></a>
-        <a href="https://www.docker.com/products/docker-engine"><div class="skill">Grafana</div></a>
         <a href="https://github.com/eslint/eslint"><div class="skill">Prettier</div></a>
         <a href="https://github.com/facebook/flow"><div class="skill">Flow</div></a>
+        <a href="https://github.com/facebook/jest"><div class="skill">husky</div></a>
+        <a href="https://github.com/influxdata/influxdb"><div class="skill">Load Impact K6</div></a>
+        <a href="https://www.docker.com/products/docker-engine"><div class="skill">Grafana</div></a>
         <a href="https://github.com/typicode/husky"><div class="skill">InfluxDB</div></a>
         <a href="https://www.getpostman.com"><div class="skill">Postman</div></a>
         <a href="https://www.atlassian.com/software/bamboo"><div class="skill">jest</div></a>
         <a href="https://www.atlassian.com/software/jira"><div class="skill">Jira Software</div></a>
+        <a href="https://bitbucket.org/product/features/pipelines"><div class="skill">Bitbucket Pipelines</div></a>
+        <a href="https://git-scm.com"><div class="skill">Git</div></a>
     </div>
   </div>
   <div class="skills-container">
