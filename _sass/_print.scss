@@ -1,4 +1,29 @@
 @media print {
+  .post {
+    &-info {
+      display: none;
+    }
+
+    &-title {
+      text-indent: -9999px;
+      line-height: 0;
+    }
+
+    &-title::after {
+      content: "Michał Kubrycz";
+      text-indent: 0;
+      display: block;
+      line-height: initial;
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    &-line {
+      // display: none;
+      margin: 1rem auto 1rem;
+    }
+  }
+
   .nav {
     display: none;
     height: 0;
@@ -8,15 +33,68 @@
     width: 21cm;
     height: 29.7cm;
     margin: auto;
+    font-size: 12px;
     .pagination {
       display: none;
       height: 0;
     }
   }
 
+  blockquote {
+    font-size: 10px;
+  }
+
+  .skills-container {
+    width: 50%;
+    padding: 0;
+    margin-bottom: 1rem;
+    .skill {
+      padding: 0;
+      margin: 0.2rem;
+      font-size: 10px;
+    }
+  }
+
+  .social-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: 10px;
+    text-align: start;
+    a {
+      display: block;
+      margin: 0;
+      i {
+        margin: 0;
+      }
+    }
+    a[href]:after {
+      content: " (" attr(href) ")";
+    }
+  }
+
+  #print-button {
+    display: none;
+  }
+
   footer {
     display: none;
     height: 0;
   }
+}
 
+#print-button {
+  position: absolute;
+  top: 12%;
+  right: 16%;
+  font-size: 2.5rem;
+  a {
+    @include transition(all 0.1s linear);
+    &:hover,
+    &:focus {
+      @include vibrate;
+      opacity: 0.8;
+    }
+  }
 }

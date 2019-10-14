@@ -107,3 +107,5 @@ I'm an test automation engineer working with web technologies. In my day-to-day 
 I speak Polish (native) and English (C1).
 
 {% include social-bar.html %}
+
+{% include print-button.html %}
