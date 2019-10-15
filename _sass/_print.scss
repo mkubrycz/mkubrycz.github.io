@@ -49,8 +49,8 @@
     padding: 0;
     margin-bottom: 1rem;
     .skill {
-      padding: 0;
-      margin: 0.2rem;
+      padding: 0.1rem 0.2rem;
+      margin: 0.1rem;
       font-size: 10px;
     }
   }
@@ -64,7 +64,7 @@
     text-align: start;
     a {
       display: block;
-      margin: 0;
+      margin: 0 0.1rem;
       i {
         margin: 0;
       }
@@ -74,27 +74,8 @@
     }
   }
 
-  #print-button {
-    display: none;
-  }
-
   footer {
     display: none;
     height: 0;
-  }
-}
-
-#print-button {
-  position: absolute;
-  top: 12%;
-  right: 16%;
-  font-size: 2.5rem;
-  a {
-    @include transition(all 0.1s linear);
-    &:hover,
-    &:focus {
-      @include vibrate;
-      opacity: 0.8;
-    }
   }
 }

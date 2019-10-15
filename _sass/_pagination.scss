@@ -12,7 +12,7 @@
     }
   }
 
-  .top {
+  a {
     @include transition(all 0.3s ease-out);
     color: $default-color;
     font-family: $sans-serif;

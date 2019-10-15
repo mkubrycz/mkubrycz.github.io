@@ -3,9 +3,10 @@ layout: page
 title: my resume 📃
 date: 2019-10-12 20:06:00 +0100
 permalink: /
+printable: true
 ---
 
-I'm an test automation engineer working with web technologies. In my day-to-day work, I use JavaScript to build advanced testing frameworks for web applications. Tools of my choice are TestCafe for UI testing, K6 for load testing, and jest for testing APIs and automating lower level testing tasks. I'm also using Docker for test environments automation. Over the last two years, I've been creating and maintaining tests automation frameworks for many different projects as a one-person tests automation team.
+I'm a test automation engineer working with web technologies. In my day-to-day work, I use JavaScript to build advanced testing frameworks for web applications. Tools of my choice are TestCafe for UI testing, K6 for load testing, and jest for testing APIs and automating lower level testing tasks. I'm also using Docker for test environments automation. Over the last two years, I've been creating and maintaining tests automation frameworks for many different projects as a one-person tests automation team.
 
 ---
 
@@ -107,5 +108,3 @@ I'm an test automation engineer working with web technologies. In my day-to-day 
 I speak Polish (native) and English (C1).
 
 {% include social-bar.html %}
-
-{% include print-button.html %}
