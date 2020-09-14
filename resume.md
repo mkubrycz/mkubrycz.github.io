@@ -1,16 +1,16 @@
 ---
 layout: page
 title: my resume 📃
-date: 2019-10-12 20:06:00 +0100
+date: 2020-09-13 14:00:00 +0100
 permalink: /
 printable: true
 ---
 
-I'm a test automation engineer working with web technologies. In my day-to-day work, I use JavaScript to build advanced testing frameworks for web applications. Tools of my choice are TestCafe for UI testing, K6 for load testing, and jest for testing APIs and automating lower level testing tasks. I'm also using Docker for test environments automation. Over the last two years, I've been creating and maintaining tests automation frameworks for many different projects as a one-person tests automation team.
+I'm a test automation engineer and a QA team leader. In my day-to-day work, I'm using technologies such as Docker, ELK stack, shell, node and python scripting, and TestCafe to solve any automation problems that come my way. My abilities extend beyond tests automation. My main mission is to boldly automate what hasn't been automated before 🖖. Whether it's tests, or CD pipeline, or reporting platform. I'm also a docker evangelist 🐳. I believe that there's no problem in automation that can't be solved with the use of docker. As a team leader my focus is on education and communication. Never have I passed the opportunity to share my knowledge and experience. The most rewarding thing for me is when people find something I taught useful.
 
 ---
 
-<center><h3>Tools and frameworks 🧰</h3></center>
+<center><h3>tools and frameworks 🧰</h3></center>
 
 <div class="flex-container">
   <div class="skills-container">
@@ -22,16 +22,19 @@ I'm a test automation engineer working with web technologies. In my day-to-day w
         <a href="https://github.com/grafana/grafana"><div class="skill">ESlint</div></a>
         <a href="https://github.com/eslint/eslint"><div class="skill">Prettier</div></a>
         <a href="https://github.com/facebook/flow"><div class="skill">Flow</div></a>
-        <a href="https://github.com/facebook/jest"><div class="skill">husky</div></a>
+        <a href="https://github.com/typicode/husky"><div class="skill">husky</div></a>
         <a href="https://github.com/influxdata/influxdb"><div class="skill">Load Impact K6</div></a>
+        <a href="https://www.elastic.co/what-is/elk-stack"><div class="skill">ELK stack</div></a>
         <a href="https://www.docker.com/products/docker-engine"><div class="skill">Grafana</div></a>
         <a href="https://github.com/typicode/husky"><div class="skill">InfluxDB</div></a>
         <a href="https://www.getpostman.com"><div class="skill">Postman</div></a>
         <a href="https://www.atlassian.com/software/bamboo"><div class="skill">jest</div></a>
         <a href="https://www.atlassian.com/software/jira"><div class="skill">Jira Software</div></a>
         <a href="https://bitbucket.org/product/features/pipelines"><div class="skill">Bitbucket Pipelines</div></a>
+        <a href="https://github.com/prettier/prettier"><div class="skill">Bamboo</div></a>
         <a href="https://git-scm.com"><div class="skill">Git</div></a>
         <a href="https://www.gnu.org/software/bash/"><div class="skill">Bash</div></a>
+        <a href="https://www.python.org"><div class="skill">Python</div></a>
         <a href="https://www.zsh.org"><div class="skill">Zsh</div></a>
     </div>
   </div>
@@ -47,28 +50,42 @@ I'm a test automation engineer working with web technologies. In my day-to-day w
         <a href="https://www.seleniumhq.org/projects/webdriver/"><div class="skill-green">Selenium WebDriver</div></a>
         <a href="https://www.browserstack.com"><div class="skill-green">BrowserStack</div></a>
         <a href="https://circleci.com"><div class="skill-green">CircleCI</div></a>
-        <a href="https://github.com/prettier/prettier"><div class="skill-green">Bamboo</div></a>
         <a href="https://github.com/ariya/phantomjs"><div class="skill-green">PhantomJS</div></a>
         <a href="https://github.com/angular/protractor"><div class="skill-green">Protractor</div></a>
         <a href="https://github.com/mochajs/mocha"><div class="skill-green">Mocha</div></a>
         <a href="https://github.com/chaijs/chai"><div class="skill-green">Chai</div></a>
+        <a href="https://github.com/facebook/jest"><div class="skill-green">jest</div></a>
     </div>
   </div>
 </div>
 
 ---
 
-### My experience 📚
-**Team Leader & Test Automation Engineer @ [Deviniti Sp. z o.o.](https://deviniti.com)**  
-*From January 2019*  
-- Building a web-apps test automation framework on top of TestCafe and K6.
-- Writing automated test cases for multiple applications.
-- Maintenance of the framework and tests.
-- Reporting and analysis of test results.
-- Helping with manual testing.
-- Testing team management.
-- Building and maintaining testing environments for testers, developers and support teams.
+<center><h3>my experience 📚</h3></center>
+
+**QA Team Leader & Test Automation Engineer @ [Deviniti Sp. z o.o.](https://deviniti.com)**  
+*as a QA Team Leader, from April 2019*  
+- Keeping the spirits up!
+- Constantly expanding team members' knowledge.
+- Recruiting new QA engineers.
+- Improving onboarding process.
+- Planning and monitoring development paths for team members.
+- Managing QA workflow.
+- Planning QA strategy.
 - Leading company's Testers Guild.
+- and...
+
+*as a Test Automation Engineer, from January 2019*  
+- Building a web-apps test automation framework on top of TestCafe and K6.
+- Creating test cases and scenarios using BDT and DDT.
+- Maintenance of the testing framework and tests.
+- Reporting and analysis of test results.
+- Building reporting platforms (Grafana + InfluxDB).
+- Developing internal reporting and analysis platform (ELK stack).
+- Building CI/CD pipelines.
+- Propagating use of Docker throughout the company.
+- Building and maintaining testing environments for testers, developers and support teams.
+- Helping with manual testing.
 
 **Automation QA @ [SoftJourn Inc.](https://softjourn.com)**  
 *From September 2017 to December 2018*  
@@ -103,8 +120,12 @@ I'm a test automation engineer working with web technologies. In my day-to-day w
 - 1 year and 4 months as a Shift supervisor
 - 1 year and 4 months as a Barista
 
+I speak Polish 🇵🇱 (native) and English 🇺🇸 (C1)
+
 ---
 
-I speak Polish (native) and English (C1).
+<center><h3>on a more personal note 🙋‍♂️</h3></center>
+
+I'm a typical human, full of inconsistencies and contradictions 🤷‍♂️. A husband, a dog owner 🐶, a gamer, an AFOL, an apprentice philosopher, and a vegetarian 🌱 among many other things. I go where my interests take me. Never afraid to explore new frontiers 🚀. Always wanting to learn new things, always looking for the open source alternatives, always very excited about Apple products 😅. My latest quirks are Raspberry Pi projects and comic books (The Walking Dead 🧟‍♀️, Ms Marvel ⚡️).
 
 {% include social-bar.html %}

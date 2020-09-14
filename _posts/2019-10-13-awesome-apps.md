@@ -1,13 +1,13 @@
 ---
 layout: post
 title: awesome apps
-date: 2019-10-13 20:00:00 +0100
+date: 2020-09-13 12:00:00 +0100
 categories: [general]
 tags: [general, software, tools, awesome]
 published: true
 ---
 
-## a couple of share-worthy apps for macOS 💻
+## a couple of share-worthy apps 💻
 
 ```markdown
 🆓 - free
@@ -44,7 +44,7 @@ basically iTerm for linux - this one is Linux-only but it's so great that it's w
 
 ## system tools 🎛
 
-[Etcher](https://github.com/resin-io/etcher/)  💫  🆓  📖  💜💜  
+[Etcher](https://github.com/balena-io/etcher)  💫  🆓  📖  💜💜  
 there's no easier way to create that bootable Ubuntu USB stick
 
 [Dozer](https://github.com/Mortennn/Dozer)  🆓  📖  💜💜💜  
@@ -62,28 +62,27 @@ awesome helper for almost any app shortcuts, just hold the cmd key
 [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704)  🆓  💜💜💜  
 a tiny app that keeps your mac awake, very simple, very useful
 
-[Magnet](https://itunes.apple.com/us/app/magnet/id441258766)  💵  💜💜💜  
+[Magnet](https://itunes.apple.com/us/app/magnet/id441258766)  💵  💜💜  
 [$1] a windows manager for macOS, because Apple couldn't handle this on their own 😅
 
-[Spectacle](https://github.com/eczarny/spectacle#keyboard-shortcuts) 🆓  💜💜  
-free alternative to Magnet 👆 but it wasn't maintained in over 2 years now and seems to have some problems with mojave and catalina...
+[Rectangle](https://github.com/rxhanson/Rectangle) 🆓  📖  💜💜💜  
+basically free Magnet app. I'd say it's even better 🤷‍♂️
+
+[Keka](https://www.keka.io/en/)  🆓  💜💜💜  
+the file archiver for macOS
 
 ## communication 💬
 
 [Mailspring](https://github.com/Foundry376/Mailspring)  💫  🆓  📖  💜💜  
 do you remember nylas? it's very good email client
 
-[Rambox](http://rambox.pro/)  💫  🆓  💜  
+[Rambox](https://github.com/ramboxapp/community-edition)  💫  🆓  💜  
 all web communicators in one app
-
-[Caprine](https://github.com/sindresorhus/caprine/)  💫  🆓  📖  💜💜💜  
-macOS facebook messenger app
 
 ## music 🎧
 
 [Auryo](http://auryo.com/) 💫  🆓  📖  💜  
 desktop SoundCloud client for macOS (but you can use media keys with Safari as well so...)
-
 
 [mps-youtube](https://github.com/mps-youtube/mps-youtube)  🆓  📖  💜  
 if you live 110% in the terminal, it's there for you to have it... YouTube for the terminal
@@ -116,16 +115,7 @@ AI correcting your writing (english only)
 cleanest markdown editor there is!
 
 [Notion](https://www.notion.so)  🆓 + 💵  💜💜  
-one of the awesomest productivity tools. It has notes, kanban, to-dos, databases, collaboration... and it's so clean!!  [it has a free tier and free mobile app]
-
-[Station](https://getstation.com/)  💫  🆓  💜💜💜  
-all your web apps in one place. great idea! excellent execution!
-
-[Stack](https://getstack.app)  💫  🆓  💜💜  
-like Station 👆, different approach
-
-[Flotato](https://flotato.com)  🆓 + 💵  💜💜  
-turns any website into `native` mac app. You can create up to 3 apps for free
+one of the `awesomest` all-in-one productivity tools. It has notes, kanban, to-dos, databases, collaboration... and it's so clean!!  [it has a free tier and free mobile app]
 
 ## gaming 🕹
 
@@ -134,3 +124,14 @@ jaw-dropping retro games emulator for macOS
 
 [Porting Kit](http://portingkit.com/en/)  🆓  💜💜💜  
 when you want to play some windows-only games on a mac, like Jazz Jackrabbit 2 😍
+
+## raspberry pi 🥧
+
+[RetroPie](https://retropie.org.uk)  🆓  📖  💜💜💜  
+turns your raspberry pi into the greatest gaming console in the world! instant nostalgia overload 👾
+
+[Lakka](http://www.lakka.tv)  🆓  📖  💜💜💜  
+the same idea as RetroPie, a bit different approach. lakka system is developed by the people responsible for retroarch project and all the libretro emulation cores. a bit worse community support than the retropie though
+
+[Home Assistant](https://www.home-assistant.io/hassio/installation/)  🆓  📖  💜💜💜  
+raspberry pi + $5 zigbee usb stick + home assistant = limitless home automation 🤖
