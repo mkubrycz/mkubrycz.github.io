@@ -6,7 +6,7 @@ permalink: /
 printable: true
 ---
 
-I'm a test automation engineer and a QA team leader. In my day-to-day work, I'm using technologies such as Docker, ELK stack, shell, node and python scripting, and TestCafe to solve any automation problems that come my way. My abilities extend beyond tests automation. My main mission is to boldly automate what hasn't been automated before 🖖. Whether it's tests, or CD pipeline, or reporting platform. I'm also a docker evangelist 🐳. I believe that there's no problem in automation that can't be solved with the use of docker. As a team leader my focus is on education and communication. Never have I passed the opportunity to share my knowledge and experience. The most rewarding thing for me is when people find something I taught useful.
+I’m a test automation engineer and a QA team leader. In my day-to-day work, I’m using technologies such as Docker, ELK stack, shell, node, and python scripting, and TestCafe to solve any automation problems that come my way. My abilities extend beyond test automation. My main mission is to boldly automate what hasn’t been automated before 🖖. Whether it’s tests, or CD pipeline, or reporting platform. I’m also a docker evangelist 🐳. I believe that there’s no automation problem that can’t be solved with the use of docker. As a team leader, my focus is on education and communication. Never have I passed the opportunity to share my knowledge and experience. The most rewarding thing for me is when people find useful something that I taught.
 
 ---
 
@@ -68,7 +68,7 @@ I'm a test automation engineer and a QA team leader. In my day-to-day work, I'm 
 - Keeping the spirits up!
 - Constantly expanding team members' knowledge.
 - Recruiting new QA engineers.
-- Improving onboarding process.
+- Improving the onboarding process.
 - Planning and monitoring development paths for team members.
 - Managing QA workflow.
 - Planning QA strategy.
@@ -81,7 +81,7 @@ I'm a test automation engineer and a QA team leader. In my day-to-day work, I'm 
 - Maintenance of the testing framework and tests.
 - Reporting and analysis of test results.
 - Building reporting platforms (Grafana + InfluxDB).
-- Developing internal reporting and analysis platform (ELK stack).
+- Developing an internal reporting and analysis platform (ELK stack).
 - Building CI/CD pipelines.
 - Propagating use of Docker throughout the company.
 - Building and maintaining testing environments for testers, developers and support teams.
