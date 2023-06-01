@@ -106,10 +106,17 @@ footer,
     padding: 0.2rem 0.4rem;
     margin: 0.2rem;
     border-radius: 0.7rem;
-    background-color: $pink;
     font-family: $sans-serif;
     font-size: 0.8rem;
-    &-green {
+  }
+  &.skills-pink {
+    .skill {
+      @extend .skill;
+      background-color: $pink;
+    }
+  }
+  &.skills-green {
+    .skill {
       @extend .skill;
       background-color: $green;
     }
