@@ -6,7 +6,7 @@ permalink: /
 printable: true
 ---
 
-I’m a QA automation engineer but I like to leave the "QA" part out, because I think it reflects better what I actually do. In my day-to-day work, I’m using technologies such as Docker, ELK stack, shell, node, and python scripting, and TestCafe to solve any automation problems that come my way. My abilities extend beyond test automation. My main mission is to boldly automate what hasn’t been automated before 🖖. Whether it’s tests, or CD pipeline, or reporting platform. I’m also a docker evangelist 🐳. I believe that there’s no automation problem that can’t be solved with the use of docker. As a team leader, my focus is on education and communication. Never have I passed the opportunity to share my knowledge and experience. The most rewarding thing for me is when people find useful something that I taught.
+I’m a QA automation engineer working mostly with web technologies 🕸️. I have experience with many JavaScript based testing tools and frameworks like Playwright, TestCafe, k6, WebdriverIO or Appium, but my experience extends beyond QA automation. I can work with Node, Bash, Go, Docker, Kubernetes or basically any tool required to solve the automation problem in front of me. I'm on a mission to boldly automate what hasn’t been automated before 🖖. Never mind if it’s tests, CI/CD pipeline or data analysis platform. I like a good challenge, especially when I can help someone and learn something new and useful in the process 🧠.
 
 ---
 
@@ -14,7 +14,7 @@ I’m a QA automation engineer but I like to leave the "QA" part out, because I 
 
 <div class="flex-container">
   <div class="skills-container skills-pink">
-    <h4>...I'm using on a daily basis</h4>
+    <h5>...I'm using on a daily basis</h5>
     <div class="flex-container">
         <a href="http://www.typescriptlang.org"><div class="skill">TypeScript</div></a>
         <a href="https://github.com/nodejs/node"><div class="skill">Node.js</div></a>
@@ -41,7 +41,7 @@ I’m a QA automation engineer but I like to leave the "QA" part out, because I 
     </div>
   </div>
   <div class="skills-container skills-green">
-    <h4>...I've been using at some point</h4>
+    <h5>...I've been using at some point</h5>
     <div class="flex-container">
         <a href="https://github.com/DevExpress/testcafe"><div class="skill">TestCafe</div></a>
         <a href="https://github.com/grafana/k6"><div class="skill">k6</div></a>
