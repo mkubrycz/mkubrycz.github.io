@@ -46,12 +46,25 @@
 
   .skills-container {
     width: 50%;
-    padding: 0;
+    padding: 0.5rem;
     margin-bottom: 1rem;
     .skill {
       padding: 0.1rem 0.2rem;
       margin: 0.1rem;
       font-size: 10px;
+      color: #333;
+      // border: 1px dashed lightgrey;
+      border-radius: 0.3rem;
+    }
+    &.skills-pink {
+      .skill {
+        border: 1px solid lightgrey;
+      }
+    }
+    &.skills-green {
+      .skill {
+        border: 1px dashed lightgrey;
+      }
     }
   }
 

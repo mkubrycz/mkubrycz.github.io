@@ -26,20 +26,35 @@ footer,
 
   &-title {
     @include transition(all 0.1s linear);
-    color: $default-color;
+    color: $white;
     display: inline-block;
     margin: 0;
     padding-right: 0.2rem;
     text-shadow: $shadow;
+    width: 200px;
 
-    &::first-letter {
-      color: #fff;
+    span {
+      display: inherit;
+    }
+
+    .surname {
+      color: $default-color;
+    }
+
+    .hidden-name {
+      text-align: left;
+      opacity: 0;
+      width: 0;
+      @include slide-under;
     }
 
     &:hover,
     &:focus {
-      @include vibrate;
-      opacity: 0.8;
+      .hidden-name {
+        opacity: 1;
+        width: 60px;
+        @include slide-over;
+      }
     }
   }
 
