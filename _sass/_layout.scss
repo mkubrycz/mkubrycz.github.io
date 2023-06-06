@@ -45,7 +45,7 @@ footer,
       text-align: left;
       opacity: 0;
       width: 0;
-      @include slide-under;
+      @include name-fold;
     }
 
     &:hover,
@@ -53,7 +53,7 @@ footer,
       .hidden-name {
         opacity: 1;
         width: 60px;
-        @include slide-over;
+        @include name-unfold;
       }
     }
   }
