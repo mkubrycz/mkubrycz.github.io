@@ -111,7 +111,7 @@ footer,
   justify-content: center;
 }
 
-.skills-container {
+@mixin skills-container {
   text-align: center;
   width: 400px;
   padding: 0 1rem;
@@ -126,16 +126,18 @@ footer,
   }
   &.skills-pink {
     .skill {
-      @extend .skill;
       background-color: $pink;
     }
   }
   &.skills-green {
     .skill {
-      @extend .skill;
       background-color: $green;
     }
   }
+}
+
+.skills-container {
+  @include skills-container;
 }
 
 @media (min-width: 600px) {

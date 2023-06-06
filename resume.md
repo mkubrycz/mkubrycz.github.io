@@ -6,7 +6,7 @@ permalink: /
 printable: true
 ---
 
-I’m a QA automation engineer working mostly with web technologies 🕸️. I have experience with many JavaScript based testing tools and frameworks like Playwright, TestCafe, k6, WebdriverIO or Appium, but my experience extends beyond QA automation. I can work with Node, Bash, Go, Docker, Kubernetes or basically any tool required to solve the automation problem in front of me. I'm on a mission to boldly automate what hasn’t been automated before 🖖. Never mind if it’s tests, CI/CD pipeline or data analysis platform. I like a good challenge, especially when I can help someone and learn something new and useful in the process 🧠.
+I’m a QA automation engineer working mostly with web technologies 🕸️. I've worked with many JavaScript-based testing tools and frameworks, such as Playwright, TestCafe, k6, or Appium. But my experience goes beyond just QA automation. I work with a variety of different technologies every day. I use essentially anything that allows me to solve the automation problems. I'm on a mission to boldly automate what hasn’t been automated before 🖖. Never mind if it’s tests, CI/CD pipeline or data analysis platform. I like a good challenge, especially when I can help someone or learn something new and useful in the process 🧠.
 
 ---
 
@@ -41,7 +41,7 @@ I’m a QA automation engineer working mostly with web technologies 🕸️. I h
     </div>
   </div>
   <div class="skills-container skills-green">
-    <h5>...I've been using at some point</h5>
+    <h5>...I've been using in the past</h5>
     <div class="flex-container">
         <a href="https://github.com/DevExpress/testcafe"><div class="skill">TestCafe</div></a>
         <a href="https://github.com/grafana/k6"><div class="skill">k6</div></a>
@@ -71,73 +71,73 @@ I’m a QA automation engineer working mostly with web technologies 🕸️. I h
 
 <center><h3>📚 my experience</h3></center>
 
-**QA Automation Engineer @ [Docplanner](https://www.docplanner.com)**  
-_From May 2021_
+**Senior QA Automation Engineer @ [Docplanner](https://www.docplanner.com)**  
+_from May 2021_
 
-- Building an e2e tests automation framework for web app (Playwright).
-- Planning and implementing the QA strategy with product teams.
-- Building internal tools for QA team (Node.js, Go).
-- Building a reporting platform for e2e tests (Grafana + InfluxDB).
-- Building CI/CD pipelines (GitHub Actions, CircleCI).
-- Streamlining the QA processes in cooperation with DevOps.
-- Training and supporting QA team with technical issues.
-- Being a QA culture evangelist.
-- Using sing BDT and DDT approach to build test scenarios.
-- Reporting and analysis of test results.
-- Helping with manual tests.
+- Building an e2e tests automation framework for web app (Playwright)
+- Planning and implementing the QA strategy with product teams
+- Building internal tools for QA team (Node.js, Go)
+- Building a reporting platform for e2e tests (Grafana + InfluxDB)
+- Building CI/CD pipelines (GitHub Actions, CircleCI)
+- Streamlining the QA processes in cooperation with DevOps
+- Training and supporting QA team with technical issues
+- Being a QA culture evangelist
+- Using sing BDT and DDT approach to build test scenarios
+- Reporting and analysis of test results
+- Helping with manual tests
 
 **QA Team Leader & QA Automation Engineer @ [Deviniti Sp. z o.o.](https://deviniti.com)**  
 _as a QA Team Leader, from April 2019 to April 2021_
 
 - Keeping the spirits up!
-- Constantly expanding team members' knowledge.
-- Recruiting new QA engineers.
-- Improving the onboarding process.
-- Planning and monitoring development paths for team members.
-- Managing QA workflow.
-- Planning QA strategy.
-- Leading company's Testers Guild.
+- Constantly expanding team members' knowledge
+- Recruiting new QA engineers
+- Improving the onboarding process
+- Planning and monitoring development paths for team members
+- Managing QA workflow
+- Planning QA strategy
+- Leading company's Testers Guild
 
 _as a QA Automation Engineer, from January 2019 to April 2021_
 
-- Building an e2e tests automation framework for Jira extensions (TestCafe + K6 + Docker).
-- Using sing BDT and DDT approach to build test scenarios.
-- Reporting and analysis of test results.
-- Building a reporting platform for e2e tests (Grafana + InfluxDB).
-- Developing an internal reporting and data analysis platform (ELK stack).
-- Building CI/CD pipelines (Bitbucket Pipelines, Bamboo).
-- Building a testing environments management platform (Rancher + Kubernetes).
-- Helping with manual tests.
-- Propagating the use of Docker throughout the company.
+- Building an e2e tests automation framework for Jira extensions (TestCafe + K6 + Docker)
+- Using sing BDT and DDT approach to build test scenarios
+- Reporting and analysis of test results
+- Building a reporting platform for e2e tests (Grafana + InfluxDB)
+- Developing an internal reporting and data analysis platform (ELK stack)
+- Building CI/CD pipelines (Bitbucket Pipelines, Bamboo)
+- Building a testing environments management platform (Rancher + Kubernetes)
+- Helping with manual tests
+- Propagating the use of Docker throughout the company
 
 **QA Automation Engineer @ [SoftJourn Inc.](https://softjourn.com)**  
-_From September 2017 to December 2018_
+_from September 2017 to December 2018_
 
-- Building an e2e tests automation framework for web application (TestCafe + K6 + Jest + Docker).
-- Automating test scenarios.
-- Helping with manual tests.
-- Reporting and analysis of test results.
-- Additional software development tasks (using Angular v6, Sails.js, and Angular.js).
+- Building an e2e tests automation framework for web application (TestCafe + K6 + Jest + Docker)
+- Automating test scenarios
+- Helping with manual tests
+- Reporting and analysis of test results
+- Additional software development tasks (using Angular v6, Sails.js, and Angular.js)
 
 **Test Automation Engineer @ [Beyond](https://beyond.life) (formerly Funerlabooker)**  
-_From July 2016 to August 2017_
+_from July 2016 to August 2017_
 
-- Building an e2e tests automation framework for web application (TestCafe + Mocha + Docker).
-- Building an e2e tests automation framework for web application (Capybara + RSpec + PhantomJS + Docker).
-- Automating test scenarios.
-- Reporting and analysis of test results.
-- Manual testing.
+- Building an e2e tests automation framework for web application (TestCafe + Mocha + Docker)
+- Building an e2e tests automation framework for web application (Capybara + RSpec + PhantomJS + Docker)
+- Automating test scenarios
+- Reporting and analysis of test results
+- Manual testing
 
 **Technical Support Engineer @ Verve (formerly StreetTeam)**  
-_From April 2016 to August 2016_
+_from April 2016 to August 2016_
 
-- Manual testing.
-- Answering users' queries.
-- Assigning issues to development team members.
-- Solving lower priority issues.
+- Manual testing
+- Answering users' queries
+- Assigning issues to development team members
+- Solving lower priority issues
 
-**Multiple roles @ AmRest Coffee (Starbucks)**  
-_From September 2010 to December 2015_
+**From Barista to Store Manager @ AmRest Coffee (Starbucks)**  
+_from September 2010 to December 2015_
 
 I speak Polish 🇵🇱 (native) and English 🇺🇸 (C1)
 
@@ -145,6 +145,6 @@ I speak Polish 🇵🇱 (native) and English 🇺🇸 (C1)
 
 <center><h3>🦄 on a more personal note</h3></center>
 
-I'm a normal, everyday guy, full of inconsistencies and contradictions 🤷‍♂️. A husband 👫, a dog owner 🐶, a gamer 🎮, an AFOL 👷‍♂️, an apprentice philosopher 💭, and a vegan 🌱 among many other things. I go where my interests take me. Never afraid to explore new frontiers 🚀. Always willing to learn new things 🧠. Always looking for the open source software alternatives 🧰. Always very excited about Apple products 🤩. My latest quirks are interior design using [SketchUp](https://app.sketchup.com/app?hl=en) and turning images into Lego art using [Studio](https://www.bricklink.com/v3/studio/download.page).
+A husband, a dog owner 🐶, a gamer, an AFOL 👷‍♂️, an apprentice philosopher, and a vegan 🌱 among other things. I go where my interests take me. Never afraid to explore new frontiers, always willing to learn new things 🧠, always on the lookout for new software, ands always very excited about Apple products. My latest quirks are interior design using [SketchUp](https://app.sketchup.com/app?hl=en) and turning images into Lego art using [Studio](https://www.bricklink.com/v3/studio/download.page) 🖼️.
 
 {% include social-bar.html %}
