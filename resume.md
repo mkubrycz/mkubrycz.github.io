@@ -149,6 +149,6 @@ I speak Polish 🇵🇱 (native) and English 🇺🇸 (C1)
 
 <center><h3>🦄 on a more personal note</h3></center>
 
-A husband, a dog owner 🐶, a gamer, an AFOL 👷‍♂️, an apprentice philosopher, and a vegan 🌱 among other things. I go where my interests take me. Never afraid to explore new frontiers, always willing to learn new things 🧠, always on the lookout for new software, ands always very excited about Apple products. My latest quirks are interior design using [SketchUp](https://app.sketchup.com/app?hl=en) and turning images into Lego art using [Studio](https://www.bricklink.com/v3/studio/download.page) 🖼️.
+A husband, a dog owner 🐶, a gamer, an AFOL 👷‍♂️, an apprentice philosopher, and a vegan 🌱 among other things. I go where my interests take me. Never afraid to explore new frontiers, always willing to learn new things 🧠, always on the lookout for new software, and always very excited about Apple products. My latest quirks are interior design using [SketchUp](https://app.sketchup.com/app?hl=en) and turning images into Lego art using [Studio](https://www.bricklink.com/v3/studio/download.page) 🖼️.
 
 {% include social-bar.html %}
