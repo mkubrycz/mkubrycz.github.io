@@ -1,29 +1,28 @@
 <div class="social-bar">
-  {%- if site.social.github -%}
-  <a href="https://github.com/{{ site.social.github | cgi_escape | escape }}"><i class="black fab fa-github"></i></a>
-  {%- endif -%}
+    {%- if site.social.github -%}
+    <a href="https://github.com/{{ site.social.github | cgi_escape | escape }}"><i class="black fab fa-github"></i></a>
+    {%- endif -%}
 
-  {%- if site.social.linkedin -%}
-  <a href="https://www.linkedin.com/in/{{ site.social.linkedin | cgi_escape | escape }}"><i
-      class="fab fa-linkedin"></i></a>
-  {%- endif -%}
+    {%- if site.social.linkedin -%}
+    <a href="https://linkedin.com/in/{{ site.social.linkedin | cgi_escape | escape }}"><i
+            class="fab fa-linkedin"></i></a>
+    {%- endif -%}
 
-  {%- if site.social.facebook and page.permalink != '/resume/' -%}
-  <a href="https://www.facebook.com/{{ site.social.facebook | cgi_escape | escape }}"><i
-      class="fab fa-facebook"></i></a>
-  {%- endif -%}
+    {%- if site.social.facebook and page.permalink != '/resume/' -%}
+    <a href="https://facebook.com/{{ site.social.facebook | cgi_escape | escape }}"><i class="fab fa-facebook"></i></a>
+    {%- endif -%}
 
-  {%- if site.social.instagram and page.permalink != '/resume/' -%}
-  <a href="https://www.instagram.com/{{ site.social.instagram | cgi_escape | escape }}"><i
-      class="pink fab fa-instagram"></i></a>
-  {%- endif -%}
+    {%- if site.social.instagram and page.permalink != '/resume/' -%}
+    <a href="https://instagram.com/{{ site.social.instagram | cgi_escape | escape }}"><i
+            class="pink fab fa-instagram"></i></a>
+    {%- endif -%}
 
-  {%- if site.social.twitter and page.permalink != '/resume/' -%}
-  <a href="https://twitter.com/{{ site.social.twitter | cgi_escape | escape }}"><i class="fab fa-twitter"></i></a>
-  {%- endif -%}
+    {%- if site.social.twitter and page.permalink != '/resume/' -%}
+    <a href="https://twitter.com/{{ site.social.twitter | cgi_escape | escape }}"><i class="fab fa-twitter"></i></a>
+    {%- endif -%}
 
-  {%- if site.social.spotify and page.permalink != '/resume/' -%}
-  <a href="https://open.spotify.com/user/{{ site.social.spotify | cgi_escape | escape }}"><i
-      class="green fab fa-spotify"></i></a>
-  {%- endif -%}
+    {%- if site.social.spotify and page.permalink != '/resume/' -%}
+    <a href="https://open.spotify.com/user/{{ site.social.spotify | cgi_escape | escape }}"><i
+            class="green fab fa-spotify"></i></a>
+    {%- endif -%}
 </div>
