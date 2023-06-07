@@ -6,6 +6,10 @@ permalink: /
 printable: true
 ---
 
+{% include contact-section.html %}
+
+---
+
 I’m a QA automation engineer working mostly with web technologies 🕸️. I've worked with many JavaScript-based testing tools and frameworks, such as Playwright, TestCafe, k6, or Appium. But my experience goes beyond just QA automation. I work with a variety of different technologies every day. I use essentially anything that allows me to solve the automation problems. I'm on a mission to boldly automate what hasn’t been automated before 🖖. Never mind if it’s tests, CI/CD pipeline or data analysis platform. I like a good challenge, especially when I can help someone or learn something new and useful in the process 🧠.
 
 ---

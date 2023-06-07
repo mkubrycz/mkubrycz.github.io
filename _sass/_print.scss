@@ -28,12 +28,21 @@
       margin: 1rem auto 1rem;
     }
 
+    .contact-container {
+      font-size: 0.8rem;
+    }
+
     &>ul {
       page-break-inside: avoid;
     }
 
+    &>p:nth-of-type(3) {
+      page-break-before: always;
+    }
+    
     &>p {
       page-break-after: avoid;
+      page-break-inside: avoid;
     }
   }
 

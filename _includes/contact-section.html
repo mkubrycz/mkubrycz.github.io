@@ -1,0 +1,13 @@
+<div class="contact-container">
+    {%- if site.author.email -%}
+    <div class="contact-item"><span class="contact-category">email:</span> {{ site.author.email }}</div>
+    {%- endif -%}
+    {%- if site.author.phone -%}
+    <div class="contact-item"><span class="contact-category">phone:</span> {{ site.author.phone }}</div>
+    {%- endif -%}
+    {%- if site.author.location -%}
+    <div class="contact-item"><span class="contact-category">location:</span> {{ site.author.location }}</div>
+    {%- endif -%}
+</div>
+
+<div class="contact-footnote">I'm open to remote work opportunities and relocation</div>

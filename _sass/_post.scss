@@ -28,10 +28,10 @@
     width: 4rem;
   }
 
-  p {
+  &>p {
     margin: 0 0 1rem;
     text-align: justify;
-    &:nth-child(4):first-letter {
+    &:nth-of-type(1):first-letter {
       color: $pink;
       padding: 0 0.3rem;
       margin: 0.1rem 0.1rem 0 0;
@@ -39,6 +39,28 @@
       float: left;
       line-height: 1;
     }
+  }
+
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+
+    .contact-item {
+      margin: 0 0 1rem 0;
+      text-align: center;
+      width: 30%;
+
+      .contact-category {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .contact-footnote {
+    text-align: center;
+    font-style: italic;
   }
 
   a:hover {

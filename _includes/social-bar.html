@@ -4,19 +4,18 @@
   {%- endif -%}
 
   {%- if site.social.linkedin -%}
-  <a href="https://www.linkedin.com/in/{{ site.social.linkedin | cgi_escape | escape }}"><i class="fab fa-linkedin"></i></a>
-  {%- endif -%}
-
-  {%- if site.author.email -%}
-  <a href="mailto:{{ site.author.email }}"><i class="yellow fas fa-at"></i></a>
+  <a href="https://www.linkedin.com/in/{{ site.social.linkedin | cgi_escape | escape }}"><i
+      class="fab fa-linkedin"></i></a>
   {%- endif -%}
 
   {%- if site.social.facebook and page.permalink != '/resume/' -%}
-  <a href="https://www.facebook.com/{{ site.social.facebook | cgi_escape | escape }}"><i class="fab fa-facebook"></i></a>
+  <a href="https://www.facebook.com/{{ site.social.facebook | cgi_escape | escape }}"><i
+      class="fab fa-facebook"></i></a>
   {%- endif -%}
 
   {%- if site.social.instagram and page.permalink != '/resume/' -%}
-  <a href="https://www.instagram.com/{{ site.social.instagram | cgi_escape | escape }}"><i class="pink fab fa-instagram"></i></a>
+  <a href="https://www.instagram.com/{{ site.social.instagram | cgi_escape | escape }}"><i
+      class="pink fab fa-instagram"></i></a>
   {%- endif -%}
 
   {%- if site.social.twitter and page.permalink != '/resume/' -%}
@@ -24,6 +23,7 @@
   {%- endif -%}
 
   {%- if site.social.spotify and page.permalink != '/resume/' -%}
-  <a href="https://open.spotify.com/user/{{ site.social.spotify | cgi_escape | escape }}"><i class="green fab fa-spotify"></i></a>
+  <a href="https://open.spotify.com/user/{{ site.social.spotify | cgi_escape | escape }}"><i
+      class="green fab fa-spotify"></i></a>
   {%- endif -%}
 </div>
