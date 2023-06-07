@@ -10,7 +10,7 @@ printable: true
 
 ---
 
-I’m a QA automation engineer working mostly with web technologies 🕸️. I've worked with many JavaScript-based testing tools and frameworks, such as Playwright, TestCafe, k6, or Appium. But my experience goes beyond just QA automation. I work with a variety of different technologies every day. I use essentially anything that allows me to solve the automation problems. I'm on a mission to boldly automate what hasn’t been automated before 🖖. Never mind if it’s tests, CI/CD pipeline or data analysis platform. I like a good challenge, especially when I can help someone or learn something new and useful in the process 🧠.
+I’m a QA automation engineer working mostly with web technologies 🕸️. I've worked with many JavaScript-based testing tools and frameworks, such as Playwright, TestCafe, k6, or Appium. But my experience extends beyond just QA automation. I work with a variety of different technologies every day. From Docker, through Grafana to Go, I use anything that allows me to solve automation problems. I'm on a mission to boldly automate what hasn’t been automated before 🖖. Never mind if it’s tests, CI/CD pipeline or data analysis platform. I like a good challenge, especially when I can help someone or learn something new and useful in the process 🧠.
 
 ---
 
@@ -78,7 +78,7 @@ I’m a QA automation engineer working mostly with web technologies 🕸️. I'v
 **Senior QA Automation Engineer @ [Docplanner](https://www.docplanner.com)**  
 _from May 2021_
 
-- Building an e2e tests automation framework for web app (Playwright)
+- Building an e2e tests automation framework for web app (Playwright + TypeScript)
 - Planning and implementing the QA strategy with product teams
 - Building internal tools for QA team (Node.js, Go)
 - Building a reporting platform for e2e tests (Grafana + InfluxDB)
@@ -93,18 +93,18 @@ _from May 2021_
 **QA Team Leader & QA Automation Engineer @ [Deviniti Sp. z o.o.](https://deviniti.com)**  
 _as a QA Team Leader, from April 2019 to April 2021_
 
-- Keeping the spirits up!
-- Constantly expanding team members' knowledge
-- Recruiting new QA engineers
-- Improving the onboarding process
-- Planning and monitoring development paths for team members
 - Managing QA workflow
 - Planning QA strategy
+- Recruiting new QA engineers
+- Constantly expanding team members' knowledge
+- Planning and monitoring development paths for team members
+- Improving the onboarding process
 - Leading company's Testers Guild
+- Keeping the spirits up!
 
 _as a QA Automation Engineer, from January 2019 to April 2021_
 
-- Building an e2e tests automation framework for Jira extensions (TestCafe + K6 + Docker)
+- Building an e2e tests automation framework for Jira extensions (TestCafe + K6 + TypeScript)
 - Using sing BDT and DDT approach to build test scenarios
 - Reporting and analysis of test results
 - Building a reporting platform for e2e tests (Grafana + InfluxDB)
