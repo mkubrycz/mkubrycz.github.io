@@ -48,13 +48,30 @@
     justify-content: center;
 
     .contact-item {
-      margin: 0 0 1rem 0;
+      margin: 0;
       text-align: center;
       width: 30%;
+    }
 
-      .contact-category {
-        font-weight: bold;
+    .contact-languages {
+      font-family: $serif;
+
+      &>div {
+        align-self: center;
+        margin: 0 0.1rem;
       }
+
+      .decorative {
+        margin: 0 0.2rem;
+        color: $blue;
+        font-family: $serif;
+        font-style: italic;
+        font-size: 1.6rem;
+      }
+    }
+
+    .contact-category {
+      font-weight: bold;
     }
   }
 

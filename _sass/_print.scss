@@ -1,3 +1,8 @@
+@mixin no-print {
+  display: none;
+  height: 0;
+}
+
 @media print {
   body {
     -webkit-print-color-adjust: exact !important;
@@ -6,7 +11,7 @@
 
   .post {
     &-info {
-      display: none;
+      @include no-print;
     }
 
     &-title {
@@ -19,12 +24,11 @@
       text-indent: 0;
       display: block;
       line-height: initial;
-      font-size: 2rem;
+      font-size: 1.8rem;
       margin: 0;
     }
 
     &-line {
-      // display: none;
       margin: 1rem auto 1rem;
     }
 
@@ -46,20 +50,11 @@
     }
   }
 
-  .nav {
-    display: none;
-    height: 0;
-  }
-
   body {
     width: 21cm;
     height: 29.7cm;
     margin: auto;
     font-size: 12px;
-    .pagination {
-      display: none;
-      height: 0;
-    }
   }
 
   blockquote {
@@ -71,9 +66,10 @@
     width: 45%;
     padding: 0.5rem;
     .skill {
-      padding: 0.1rem 0.2rem;
+      padding: 0.2rem 0.4rem;
       margin: 0.1rem;
       font-size: 10px;
+      font-weight: bold;
     }
   }
 
@@ -84,20 +80,25 @@
     justify-content: space-around;
     font-size: 10px;
     text-align: start;
+
     a {
-      display: block;
-      margin: 0 0.1rem;
+      margin: 0;
+      &.no-print {
+        @include no-print;
+      }
       i {
+        font-size: 12px;
         margin: 0;
       }
     }
+
     a[href]:after {
-      content: " (" attr(href) ")";
+      content: attr(href);
+      margin-left: 0.2rem;
     }
   }
 
-  footer {
-    display: none;
-    height: 0;
+  .no-print {
+    @include no-print;
   }
 }

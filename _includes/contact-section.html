@@ -8,8 +8,15 @@
     {%- if site.author.location -%}
     <div class="contact-item"><span class="contact-category">location:</span> {{ site.author.location }}</div>
     {%- endif -%}
+    {%- if site.author.languages -%}
+    <div class="contact-languages flex-container">
+        <div class="contact-category">languages:</div>
+        {%- for language in site.author.languages -%}
+        <div class="contact-language">{{ language }}</div>
+        {%- if forloop.last == false -%}
+        <div class="decorative">&</div>
+        {%- endif -%}
+        {%- endfor -%}
+    </div>
+    {%- endif -%}
 </div>
-
-{%- if jekyll.environment != 'production' -%}
-<div class="contact-footnote">I'm open to remote work opportunities and relocation</div>
-{%- endif -%}

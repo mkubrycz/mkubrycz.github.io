@@ -5,8 +5,8 @@ layout: default
 <div class="post">
   <div class="post-info">
     {% if page.date %}
-      <br>
-      <span>Written on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    <br>
+    <span>Written on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
     {% endif %}
   </div>
 
@@ -17,6 +17,6 @@ layout: default
 
 </div>
 
-<div class="pagination">
+<div class="pagination no-print">
   <a href="#">☝️Top</a> {% if page.printable %} | <a href="javascript:window.print()">Print 🖨</a> {% endif %}
 </div>

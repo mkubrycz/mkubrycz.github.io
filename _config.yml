@@ -24,17 +24,19 @@ author:
   url: http://mkubrycz.github.io
   phone:
   location: Wrocław, Poland
+  languages:
+    - native Polish 🇵🇱
+    - advanced English 🇺🇸
 email: mkubrycz@gmail.com
-
-# google_analytics: UA-134261307-1
 
 social:
   github:  mkubrycz
   linkedin: michalkubrycz
-  twitter: kubrycz
+  twitter:
   instagram: michalkubrycz
-  facebook: mkubrycz
-  spotify: mkubrycz
+  facebook:
+  spotify:
+  music: mkubrycz
 
 markdown: kramdown
 include:
