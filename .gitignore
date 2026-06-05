@@ -14,6 +14,7 @@ _site/
 vendor
 
 # Files
+.tmp
 .analysis
 .DS_Store
 *.swp
