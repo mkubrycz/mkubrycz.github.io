@@ -1,7 +1,7 @@
 ---
 layout: page
 title: my resume 📃
-date: 2024-09-25 18:00:00 +0100
+date: 2026-06-05 18:00:00 +0100
 permalink: /
 printable: true
 ---
@@ -10,7 +10,11 @@ printable: true
 
 ---
 
-I’m a QA Automation Engineer who loves working with web technologies. I’ve used a bunch of JavaScript-based testing tools and frameworks, like Playwright, TestCafe, k6, and Cypress. I’m also familiar with mobile test automation. But I’m not just about QA automation. I work with a wide variety of technologies every day. From Docker to Kubernetes and Grafana, to Go, I’m always looking for new tools to help me solve automation problems at hand. I’m on a mission to boldly automate what hasn’t been automated before! 🖖 I love a good challenge, whether it’s automating tests, building CD pipelines, or integrating new data analysis platforms for better observability. 👷‍♂️ I especially enjoy helping others learn and grow their skills and knowledge. In the past, I’ve been a mentor to many QA engineers, and it’s so profoundly rewarding to see my mentee learn something new and understand a new concept. 👨‍🏫 I also love learning new and valuable skills, especially those that can make our daily lives easier.
+I’m a Senior Software Engineer in Test who builds automation systems people can actually live with — especially in the delightful mess of mobile quality. I work mainly with TypeScript, Appium, WebdriverIO, and the usual suspects: real and virtual devices, release timelines, and the occasional “works on my phone” plot twist.
+
+I care about test architecture, useful tooling, and making quality work feel less like ceremony and more like leverage. Lately I’ve also been deep in AI-assisted developer workflows: experimenting with Pi, Claude Code, custom skills, prompts, and persistent knowledge bases to make research, planning, and automation smoother. Basically, I enjoy teaching tiny terminal goblins to be useful — and writing down what actually worked before they unionize. 🤖
+
+I also genuinely like helping people grow. Mentoring QA engineers, improving team habits, and seeing a concept click for someone still gives me an unreasonable amount of joy.
 
 ---
 
@@ -20,30 +24,30 @@ I’m a QA Automation Engineer who loves working with web technologies. I’ve u
   <div class="skills-container skills-pink">
     <h5>...I'm using on a daily basis</h5>
     <div class="flex-container">
-        <a href="http://www.typescriptlang.org"><div class="skill">TypeScript</div></a>
+        <a href="https://www.typescriptlang.org/"><div class="skill">TypeScript</div></a>
         <a href="https://github.com/nodejs/node"><div class="skill">Node.js</div></a>
+        <a href="https://github.com/appium/appium"><div class="skill">Appium</div></a>
+        <a href="https://github.com/webdriverio/webdriverio"><div class="skill">WebdriverIO</div></a>
+        <a href="https://github.com/mochajs/mocha"><div class="skill">Mocha</div></a>
         <a href="https://github.com/microsoft/playwright"><div class="skill">Playwright</div></a>
         <a href="https://github.com/jestjs/jest"><div class="skill">Jest</div></a>
+        <a href="https://www.charlesproxy.com/"><div class="skill">Charles Proxy</div></a>
+        <a href="https://code.claude.com/docs"><div class="skill">Claude Code</div></a>
+        <a href="https://pi.dev"><div class="skill">Pi</div></a>
+        <a href="https://obsidian.md"><div class="skill">Obsidian</div></a>
         <a href="https://github.com/ladjs/supertest"><div class="skill">SuperTest</div></a>
-        <a href="https://github.com/webdriverio/webdriverio"><div class="skill">WebdriverIO</div></a>
-        <a href="https://github.com/appium/appium"><div class="skill">Appium</div></a>
         <a href="https://www.browserstack.com"><div class="skill">BrowserStack</div></a>
-        <a href="https://www.cypress.io/"><div class="skill">Cypress</div></a>
-        <a href="https://github.com/mochajs/mocha"><div class="skill">Mocha</div></a>
-        <a href="https://github.com/chaijs/chai"><div class="skill">Chai</div></a>
-        <a href="https://www.metabase.com/"><div class="skill">Metabase</div></a>
         <a href="https://github.com/n8n-io/n8n"><div class="skill">n8n</div></a>
         <a href="https://github.com/eslint/eslint"><div class="skill">ESLint</div></a>
+        <a href="https://github.com/prettier/prettier"><div class="skill">Prettier</div></a>
         <a href="https://github.com/typicode/husky"><div class="skill">husky</div></a>
         <a href="https://www.docker.com/products/docker-engine"><div class="skill">Docker</div></a>
-        <a href="https://github.com/Kong/insomnia"><div class="skill">Insomnia</div></a>
-        <a href="https://www.getpostman.com"><div class="skill">Postman</div></a>
+        <a href="https://www.postman.com"><div class="skill">Postman</div></a>
         <a href="https://www.atlassian.com/software/jira"><div class="skill">Jira</div></a>
-        <a href="https://github.com/prettier/prettier"><div class="skill">Prettier</div></a>
         <a href="https://git-scm.com"><div class="skill">Git</div></a>
+        <a href="https://www.python.org"><div class="skill">Python</div></a>
         <a href="https://www.gnu.org/software/bash/"><div class="skill">Bash</div></a>
         <a href="https://github.com/features/actions"><div class="skill">GitHub Actions</div></a>
-        <a href="https://circleci.com"><div class="skill">CircleCI</div></a>
     </div>
   </div>
   <div class="skills-container skills-green">
@@ -56,6 +60,8 @@ I’m a QA Automation Engineer who loves working with web technologies. I’ve u
         <a href="https://www.seleniumhq.org/projects/webdriver/"><div class="skill">Selenium WebDriver</div></a>
         <a href="https://developer.apple.com/documentation/xctest"><div class="skill">XCTest</div></a>
         <a href="https://www.elastic.co/what-is/elk-stack"><div class="skill">ELK stack</div></a>
+        <a href="https://www.cypress.io/"><div class="skill">Cypress</div></a>
+        <a href="https://www.metabase.com/"><div class="skill">Metabase</div></a>
         <a href="https://www.rancher.com"><div class="skill">Rancher</div></a>
         <a href="https://bitbucket.org/product/features/pipelines"><div class="skill">Bitbucket Pipelines</div></a>
         <a href="https://www.atlassian.com/software/bamboo"><div class="skill">Bamboo</div></a>
@@ -65,94 +71,109 @@ I’m a QA Automation Engineer who loves working with web technologies. I’ve u
         <a href="https://github.com/angular/angular.js"><div class="skill">AngularJS</div></a>
         <a href="https://github.com/facebook/flow"><div class="skill">Flow</div></a>
         <a href="https://go.dev/"><div class="skill">Go</div></a>
-        <a href="https://www.python.org"><div class="skill">Python</div></a>
         <a href="https://github.com/teamcapybara/capybara"><div class="skill">Capybara</div></a>
         <a href="https://github.com/rspec/rspec"><div class="skill">RSpec</div></a>
         <a href="https://github.com/ariya/phantomjs"><div class="skill">PhantomJS</div></a>
         <a href="https://github.com/angular/protractor"><div class="skill">Protractor</div></a>
+        <a href="https://circleci.com"><div class="skill">CircleCI</div></a>
     </div>
   </div>
 </div>
 
 ---
 
+<center><h3>🤖 AI tooling & developer workflows</h3></center>
+
+I’m interested in agentic AI that makes engineering work more practical. My sweet spot is human-in-the-loop workflows where the tooling stays inspectable, the context stays useful, and the model is not left alone with a flamethrower and a Markdown file. 🔥
+
+- Building and refining Pi-based workflows with custom skills, extensions, prompt templates, presets, and workflow guidance
+- Using Claude Code and Pi for research, planning, implementation support, and faster feedback loops
+- Experimenting with multi-agent orchestration, including parallel scouts for codebase research and review flows
+- Experimenting with local LLMs and retrieval-augmented generation for more private, controllable, and context-aware AI assistance
+- Designing “brains”: persistent knowledge bases for working with agentic AI, built around human-readable but AI-facing Obsidian vaults
+- Exploring browser automation, structured Q&A flows, and worktree-aware development workflows for safer human-in-the-loop automation
+
+---
+
 <center><h3>📚 my experience</h3></center>
 
-**Senior QA Automation Engineer @ [Docplanner](https://www.docplanner.com)**  
-_from May 2021_
+**Senior Software Engineer in Test @ [InPost](https://inpost.eu)**
 
-- Building e2e tests automation frameworks for web app (Playwright + TypeScript)
-- Planning and implementing the QA strategy with product teams
-- Building internal tools for QA team (Node.js + TypeScript)
-- Building CI/CD pipelines (GitHub Actions, CircleCI)
-- Building a reporting platform for e2e tests (Grafana + InfluxDB)
-- Taking care of the QA processes observability (Metabase + n8n + GitHub Actions)
-- Being a part of Development Platform team (internal tools for developers)
-- Streamlining the QA processes in cooperation with DevOps
-- Providing training and support for QA engineers
-- Spreading the knowledge about QA and automation throughout the company
-- Using BDT and DDT approach in building test scenarios
-- Working with quadrant-based prioritization of test scenarios
-- Reporting and analysis of test results
-- Helping with functional tests
+_from January 2026_
 
-**QA Team Leader & QA Automation Engineer @ [Deviniti Sp. z o.o.](https://deviniti.com)**  
+- Growing mobile test coverage and improving confidence in cross-platform releases
+- Building maintainable mobile automation with Appium, WebdriverIO, TypeScript, and Charles Proxy
+- Piloting agentic QA workflows with Claude Code and Pi for research, planning, and execution support
+- Supporting test coordination for global releases
+- Designing stable abstractions and test flows that reduce flakiness and maintenance cost
+
+**Senior QA Automation Engineer @ [Docplanner](https://www.docplanner.com)**
+
+_from May 2021 to January 2026_
+
+- Developed end-to-end automation frameworks for web applications using Playwright and TypeScript
+- Shaped QA strategy with product teams and helped turn it into day-to-day practice
+- Created internal tools for QA engineers and developers in Node.js and TypeScript
+- Maintained and improved CI/CD pipelines in GitHub Actions and CircleCI
+- Built observability and reporting tooling for E2E tests and QA processes with Grafana, InfluxDB, Metabase, and n8n
+- Contributed to the Development Platform team on internal developer tooling
+- Streamlined QA workflows in collaboration with DevOps
+- Mentored QA engineers and supported team growth through training and hands-on guidance
+
+**QA Team Leader & QA Automation Engineer @ [Deviniti Sp. z o.o.](https://deviniti.com)**
+
 _as a QA Team Leader, from April 2019 to April 2021_
 
-- Managing QA workflow
-- Planning QA strategy
-- Recruiting new QA engineers
-- Constantly expanding team members' knowledge
-- Planning and monitoring development paths for team members
-- Improving the onboarding process
-- Leading company's Testers Guild
-- Keeping the spirits up!
+- Managed QA workflow and planned QA strategy
+- Recruited and onboarded QA engineers
+- Supported team members' growth and development paths
+- Ran the Testers Guild and helped keep QA culture lively, useful, and shared across teams
 
 _as a QA Automation Engineer, from January 2019 to April 2021_
 
-- Building an e2e tests automation framework for Jira extensions (TestCafe + K6 + TypeScript)
-- Using sing BDT and DDT approach to build test scenarios
-- Reporting and analysis of test results
-- Building a reporting platform for e2e tests (Grafana + InfluxDB)
-- Developing an internal reporting and data analysis platform (ELK stack)
-- Building CI/CD pipelines (Bitbucket Pipelines, Bamboo)
-- Building a testing environments management platform (Rancher + Kubernetes)
-- Helping with manual tests
-- Propagating the use of Docker throughout the company
+- Built an e2e test automation framework for Jira extensions (TestCafe + k6 + TypeScript)
+- Used BDD and DDT approaches to build test scenarios
+- Built reporting and data analysis platforms (Grafana + InfluxDB, ELK stack)
+- Built CI/CD pipelines (Bitbucket Pipelines, Bamboo)
+- Built a testing environments management platform (Rancher + Kubernetes)
+- Propagated the use of Docker throughout the company
 
-**QA Automation Engineer @ [SoftJourn Inc.](https://softjourn.com)**  
+**QA Automation Engineer @ [SoftJourn Inc.](https://softjourn.com)**
+
 _from September 2017 to December 2018_
 
-- Building an e2e tests automation framework for web application (TestCafe + K6 + Jest + Docker)
-- Automating test scenarios
-- Helping with manual tests
-- Reporting and analysis of test results
-- Additional software development tasks (using Angular v6, Sails.js, and Angular.js)
+- Built an e2e test automation framework for a web application (TestCafe + k6 + Jest + Docker)
+- Automated test scenarios and supported manual testing
+- Reported and analyzed test results
+- Took on additional software development tasks using Angular v6, Sails.js, and AngularJS
 
-**Test Automation Engineer @ [Beyond](https://beyond.life) (formerly Funerlabooker)**  
+**Test Automation Engineer @ [Beyond](https://beyond.life) (formerly Funerlabooker)**
+
 _from July 2016 to August 2017_
 
-- Building an e2e tests automation framework for web application (TestCafe + Mocha + Docker)
-- Building an e2e tests automation framework for web application (Capybara + RSpec + PhantomJS + Docker)
-- Automating test scenarios
-- Reporting and analysis of test results
-- Manual testing
+- Built e2e test automation frameworks for web applications (TestCafe + Mocha + Docker, Capybara + RSpec + PhantomJS + Docker)
+- Automated test scenarios and supported manual testing
+- Reported and analyzed test results
 
-**Technical Support Engineer @ Verve (formerly StreetTeam)**  
+**Technical Support Engineer @ Verve (formerly StreetTeam)**
+
 _from April 2016 to August 2016_
 
-- Manual testing
-- Answering users' queries
-- Assigning issues to development team members
-- Solving lower priority issues
+- Supported users directly and translated recurring issues into actionable feedback for the development team
+- Performed manual testing and helped triage product problems
+- Coordinated issue flow between users and engineers
+- Resolved lower-priority issues hands-on when needed
 
-**From Barista to Store Manager @ AmRest Coffee (Starbucks)**  
+**From Barista to Store Manager @ AmRest Coffee (Starbucks)**
+
 _from September 2010 to December 2015_
+
+- Learned how to lead busy shifts, prioritize under pressure, and support people when the queue gets spicy
 
 ---
 
 <center><h3>🦄 on a more personal note</h3></center>
 
-I’m a jack-of-all-trades and a master of fun! I’m a husband, a dog dad 🐕, a gamer 🕹️, a huge Lego enthusiast, a budding philosopher, and a vegan 🥑. I follow my passions wherever they take me. I’m always up for exploring new things and learning new skills. I’m also always on the hunt for the latest software, and I’m particularly excited about Apple products. Lately, I’ve been getting into building my own Lego side business, training my furry friend, and reading an amazing comic book series called DMZ. Highly recommend it! 🤓
+Outside work, I’m a husband, a dog dad 🐕, a gamer 🕹️, a Lego enthusiast, a vegan 🥑, and someone who is very capable of disappearing into a rabbit hole about philosophy, tooling, or both at once. I like learning new things, poking at weird software, and finding systems that make life easier without making it dull. Lately that has meant tinkering with AI workflows, reading good comics, training my furry sidekick, and occasionally wondering whether Lego should become a side business.
 
 {% include social-bar.html %}
