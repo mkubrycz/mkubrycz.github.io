@@ -10,11 +10,11 @@ printable: true
 
 ---
 
-I’m a Senior Software Engineer in Test who loves building maintainable automation systems, especially around mobile quality. I work with TypeScript, Appium, WebdriverIO, and the usual delightful chaos of real devices, simulators, emulators, release timelines, and “it works on my phone” mysteries. 🕵️‍♂️ I enjoy shaping test architecture, improving coverage, making pipelines and tooling more helpful, and turning quality work into something teams can actually rely on.
+I’m a Senior Software Engineer in Test who builds automation systems people can actually live with — especially in the delightful mess of mobile quality. I work mainly with TypeScript, Appium, WebdriverIO, and the usual suspects: real and virtual devices, release timelines, and the occasional “works on my phone” plot twist.
 
-I’m also increasingly focused on AI-assisted developer workflows. I experiment with Pi, Claude Code, skills, extensions, prompts, persistent knowledge bases, and agentic orchestration to make research, planning, automation, and everyday engineering work smoother. Basically: I like teaching tiny terminal goblins to be useful, then documenting what worked before they unionize. 🤖
+I care about test architecture, useful tooling, and making quality work feel less like ceremony and more like leverage. Lately I’ve also been deep in AI-assisted developer workflows: experimenting with Pi, Claude Code, custom skills, prompts, and persistent knowledge bases to make research, planning, and automation smoother. Basically, I enjoy teaching tiny terminal goblins to be useful — and writing down what actually worked before they unionize. 🤖
 
-I especially enjoy helping others learn and grow. I’ve mentored QA engineers, supported teams in building better testing habits, and I still get a ridiculous amount of joy from seeing someone understand a new concept for the first time. 👨‍🏫
+I also genuinely like helping people grow. Mentoring QA engineers, improving team habits, and seeing a concept click for someone still gives me an unreasonable amount of joy.
 
 ---
 
@@ -24,7 +24,7 @@ I especially enjoy helping others learn and grow. I’ve mentored QA engineers, 
   <div class="skills-container skills-pink">
     <h5>...I'm using on a daily basis</h5>
     <div class="flex-container">
-        <a href="http://www.typescriptlang.org"><div class="skill">TypeScript</div></a>
+        <a href="https://www.typescriptlang.org/"><div class="skill">TypeScript</div></a>
         <a href="https://github.com/nodejs/node"><div class="skill">Node.js</div></a>
         <a href="https://github.com/appium/appium"><div class="skill">Appium</div></a>
         <a href="https://github.com/webdriverio/webdriverio"><div class="skill">WebdriverIO</div></a>
@@ -84,7 +84,7 @@ I especially enjoy helping others learn and grow. I’ve mentored QA engineers, 
 
 <center><h3>🤖 AI tooling & developer workflows</h3></center>
 
-I’m exploring how agentic AI can make engineering and QA work more practical, not just more shiny. My focus is on workflows where humans stay in the loop and tools stay inspectable. I'm trying to build software where AI does more than confidently hallucinate a Markdown file into a small bonfire. 🔥
+I’m interested in agentic AI that makes engineering work more practical. My sweet spot is human-in-the-loop workflows where the tooling stays inspectable, the context stays useful, and the model is not left alone with a flamethrower and a Markdown file. 🔥
 
 - Building and refining Pi-based workflows with custom skills, extensions, prompt templates, presets, and workflow guidance
 - Using Claude Code and Pi for research, planning, implementation support, and faster feedback loops
@@ -101,24 +101,24 @@ I’m exploring how agentic AI can make engineering and QA work more practical, 
 
 _from January 2026_
 
-- Contributing to mobile test coverage growth and improving confidence in cross-platform app quality
-- Working with Appium, WebdriverIO, TypeScript, and Charles Proxy in the mobile testing space
-- Introducing agentic workflows and tooling in the QA area with tools like Claude Code and Pi
-- Helping coordinate testing efforts in a global release project
-- Designing maintainable abstractions and stable test flows for mobile automation
+- Growing mobile test coverage and improving confidence in cross-platform releases
+- Building maintainable mobile automation with Appium, WebdriverIO, TypeScript, and Charles Proxy
+- Piloting agentic QA workflows with Claude Code and Pi for research, planning, and execution support
+- Supporting test coordination for global releases
+- Designing stable abstractions and test flows that reduce flakiness and maintenance cost
 
 **Senior QA Automation Engineer @ [Docplanner](https://www.docplanner.com)**
 
 _from May 2021 to January 2026_
 
-- Built e2e test automation frameworks for web applications (Playwright + TypeScript)
-- Planned and implemented QA strategy with product teams
-- Built internal tools for QA teams and developers (Node.js + TypeScript)
-- Created and maintained CI/CD pipelines (GitHub Actions, CircleCI)
-- Built reporting and observability tooling for e2e tests and QA processes (Grafana, InfluxDB, Metabase, n8n)
-- Worked as part of the Development Platform team, building internal tooling for developers
-- Streamlined QA processes in cooperation with DevOps
-- Provided training, mentoring, and support for QA engineers
+- Developed end-to-end automation frameworks for web applications using Playwright and TypeScript
+- Shaped QA strategy with product teams and helped turn it into day-to-day practice
+- Created internal tools for QA engineers and developers in Node.js and TypeScript
+- Maintained and improved CI/CD pipelines in GitHub Actions and CircleCI
+- Built observability and reporting tooling for E2E tests and QA processes with Grafana, InfluxDB, Metabase, and n8n
+- Contributed to the Development Platform team on internal developer tooling
+- Streamlined QA workflows in collaboration with DevOps
+- Mentored QA engineers and supported team growth through training and hands-on guidance
 
 **QA Team Leader & QA Automation Engineer @ [Deviniti Sp. z o.o.](https://deviniti.com)**
 
@@ -127,8 +127,7 @@ _as a QA Team Leader, from April 2019 to April 2021_
 - Managed QA workflow and planned QA strategy
 - Recruited and onboarded QA engineers
 - Supported team members' growth and development paths
-- Led the company's Testers Guild
-- Kept the spirits up!
+- Ran the Testers Guild and helped keep QA culture lively, useful, and shared across teams
 
 _as a QA Automation Engineer, from January 2019 to April 2021_
 
@@ -160,19 +159,21 @@ _from July 2016 to August 2017_
 
 _from April 2016 to August 2016_
 
-- Manual testing
-- Answering users' queries
-- Assigning issues to development team members
-- Solving lower priority issues
+- Supported users directly and translated recurring issues into actionable feedback for the development team
+- Performed manual testing and helped triage product problems
+- Coordinated issue flow between users and engineers
+- Resolved lower-priority issues hands-on when needed
 
 **From Barista to Store Manager @ AmRest Coffee (Starbucks)**
 
 _from September 2010 to December 2015_
 
+- Learned how to lead busy shifts, prioritize under pressure, and support people when the queue gets spicy
+
 ---
 
 <center><h3>🦄 on a more personal note</h3></center>
 
-I’m a jack-of-all-trades and a master of fun! I’m a husband, a dog dad 🐕, a gamer 🕹️, a huge Lego enthusiast, a budding philosopher, and a vegan 🥑. I follow my passions wherever they take me. I’m always up for exploring new things and learning new skills. I’m also always on the hunt for the latest software, especially the kind that makes life a bit easier or weirder in a useful way. Lately, I’ve been into Lego side-business ideas, training my furry friend, tinkering with AI workflows, and reading good comics. 🤓
+Outside work, I’m a husband, a dog dad 🐕, a gamer 🕹️, a Lego enthusiast, a vegan 🥑, and someone who is very capable of disappearing into a rabbit hole about philosophy, tooling, or both at once. I like learning new things, poking at weird software, and finding systems that make life easier without making it dull. Lately that has meant tinkering with AI workflows, reading good comics, training my furry sidekick, and occasionally wondering whether Lego should become a side business.
 
 {% include social-bar.html %}
